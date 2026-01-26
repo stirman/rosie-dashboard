@@ -343,27 +343,106 @@ h1, h2, h3, h4, h5, h6 {
     background: linear-gradient(135deg, var(--bg-card) 0%, rgba(110, 231, 183, 0.1) 100%);
 }
 
-.calendar-placeholder {
+.schedule-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.schedule-item {
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 150px;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--rosie-purple);
 }
 
-.coming-soon {
+.schedule-item.zoom {
+    border-left-color: #2D8CFF;
+}
+
+.schedule-item.reminder {
+    border-left-color: var(--rosie-peach);
+}
+
+.schedule-time {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    color: var(--text-primary);
+    min-width: 80px;
+}
+
+.schedule-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.schedule-icon {
+    font-size: 1.2rem;
+}
+
+.schedule-title {
+    color: var(--text-primary);
+}
+
+.schedule-duration {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.no-events {
     text-align: center;
     color: var(--text-secondary);
+    padding: var(--space-lg);
 }
 
-.lock-icon {
-    font-size: 2.5rem;
+/* Upcoming Section */
+.upcoming-section {
+    margin-top: var(--space-lg);
+    padding-top: var(--space-md);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.upcoming-title {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     margin-bottom: var(--space-sm);
 }
 
-.coming-soon .subtext {
-    font-size: 0.85rem;
+.upcoming-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.upcoming-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-sm) 0;
+    font-size: 0.9rem;
+}
+
+.upcoming-date {
+    color: var(--rosie-teal);
+    font-weight: 500;
+    min-width: 90px;
+}
+
+.upcoming-title {
+    flex: 1;
+    color: var(--text-secondary);
+}
+
+.upcoming-time {
     color: var(--text-muted);
-    margin-top: var(--space-xs);
+    font-size: 0.85rem;
 }
 
 /* Stats Card */

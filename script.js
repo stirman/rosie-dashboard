@@ -158,6 +158,39 @@ async function loadDashboardData() {
             `).join('');
         }
         
+        // Update schedule
+        if (data.schedule && data.schedule.length > 0) {
+            const scheduleList = document.getElementById('schedule-list');
+            scheduleList.innerHTML = data.schedule.map(event => {
+                const typeIcon = event.type === 'zoom' ? '📹' : event.type === 'reminder' ? '⏰' : '📌';
+                return `
+                    <div class="schedule-item ${event.type}">
+                        <span class="schedule-time">${event.time}</span>
+                        <div class="schedule-details">
+                            <span class="schedule-icon">${typeIcon}</span>
+                            <span class="schedule-title">${event.title}</span>
+                        </div>
+                        <span class="schedule-duration">${event.duration}</span>
+                    </div>
+                `;
+            }).join('');
+        } else {
+            const scheduleList = document.getElementById('schedule-list');
+            scheduleList.innerHTML = '<p class="no-events">No events scheduled for today! 🎉</p>';
+        }
+        
+        // Update upcoming events
+        if (data.upcoming && data.upcoming.length > 0) {
+            const upcomingList = document.getElementById('upcoming-list');
+            upcomingList.innerHTML = data.upcoming.map(event => `
+                <div class="upcoming-item">
+                    <span class="upcoming-date">${event.date}</span>
+                    <span class="upcoming-title">${event.title}</span>
+                    <span class="upcoming-time">${event.time}</span>
+                </div>
+            `).join('');
+        }
+        
         // Update stats
         if (data.stats) {
             if (data.stats.messages) document.getElementById('stat-messages').textContent = data.stats.messages;
