@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosie's Daily Dashboard 🤖</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <div class="rosie-avatar">🤖</div>
+                <div class="header-text">
+                    <h1>Good <span id="greeting-time">morning</span>, Stirman family!</h1>
+                    <p class="tagline" id="tagline">Your friendly household robot, reporting for duty.</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="date-display">
+                    <span class="day" id="day-name">Saturday</span>
+                    <span class="date" id="date-full">January 25, 2026</span>
+                </div>
+                <div class="time-display" id="current-time">8:00 AM</div>
+            </div>
+        </header>
+
+        <!-- Main Grid -->
+        <main class="grid">
+            <!-- Weather Card -->
+            <section class="card weather-card">
+                <div class="card-header">
+                    <span class="card-icon">🌤️</span>
+                    <h2>Mill Valley Weather</h2>
+                </div>
+                <div class="weather-main">
+                    <div class="temp-display">
+                        <span class="temp" id="weather-temp">58°</span>
+                        <span class="condition" id="weather-condition">Partly Cloudy</span>
+                    </div>
+                    <div class="weather-details">
+                        <div class="weather-detail">
+                            <span class="label">High/Low</span>
+                            <span class="value" id="weather-highlow">62° / 48°</span>
+                        </div>
+                        <div class="weather-detail">
+                            <span class="label">Humidity</span>
+                            <span class="value" id="weather-humidity">72%</span>
+                        </div>
+                        <div class="weather-detail">
+                            <span class="label">Wind</span>
+                            <span class="value" id="weather-wind">8 mph</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="weather-quip" id="weather-quip">Perfect sweater weather! ☕</p>
+            </section>
+
+            <!-- What I've Been Up To -->
+            <section class="card activity-card">
+                <div class="card-header">
+                    <span class="card-icon">⚡</span>
+                    <h2>What I've Been Up To</h2>
+                </div>
+                <ul class="activity-list" id="activity-list">
+                    <li class="activity-item">
+                        <span class="activity-icon">📱</span>
+                        <div class="activity-content">
+                            <strong>Daily Divine Build 23</strong>
+                            <p>Pushed UI tweaks to TestFlight — brighter tab bar, softer headlines</p>
+                        </div>
+                        <span class="activity-time">Today</span>
+                    </li>
+                    <li class="activity-item">
+                        <span class="activity-icon">🔍</span>
+                        <div class="activity-content">
+                            <strong>Rolling Loud Research</strong>
+                            <p>Found May 2026 Orlando dates, estimated ~$1,400-3,000 for the trip</p>
+                        </div>
+                        <span class="activity-time">Today</span>
+                    </li>
+                    <li class="activity-item">
+                        <span class="activity-icon">🖼️</span>
+                        <div class="activity-content">
+                            <strong>Image Recognition Setup</strong>
+                            <p>Now I can see pictures you text me! (Nice cactus, btw)</p>
+                        </div>
+                        <span class="activity-time">Today</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Ideas for Today -->
+            <section class="card ideas-card">
+                <div class="card-header">
+                    <span class="card-icon">💡</span>
+                    <h2>Ideas for Today</h2>
+                </div>
+                <div class="ideas-list" id="ideas-list">
+                    <div class="idea-item">
+                        <span class="idea-number">1</span>
+                        <div class="idea-content">
+                            <strong>Add Cadence to the allowlist?</strong>
+                            <p>He could use help with school, job hunting, or just settling debates with friends</p>
+                        </div>
+                    </div>
+                    <div class="idea-item">
+                        <span class="idea-number">2</span>
+                        <div class="idea-content">
+                            <strong>Set up Google account access</strong>
+                            <p>Once rosiecitrine@gmail.com is unblocked (or we add your accounts), I can help with email & calendar</p>
+                        </div>
+                    </div>
+                    <div class="idea-item">
+                        <span class="idea-number">3</span>
+                        <div class="idea-content">
+                            <strong>Weekend adventure?</strong>
+                            <p>It's supposed to be nice — want me to find a good hike or restaurant?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Calendar Preview (Coming Soon) -->
+            <section class="card calendar-card">
+                <div class="card-header">
+                    <span class="card-icon">📅</span>
+                    <h2>Today's Schedule</h2>
+                </div>
+                <div class="calendar-placeholder" id="calendar-content">
+                    <div class="coming-soon">
+                        <span class="lock-icon">🔐</span>
+                        <p>Calendar access coming soon!</p>
+                        <p class="subtext">Waiting on Google to unblock my account</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Stats -->
+            <section class="card stats-card">
+                <div class="card-header">
+                    <span class="card-icon">📊</span>
+                    <h2>Rosie Stats</h2>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-value" id="stat-messages">47</span>
+                        <span class="stat-label">Messages Today</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="stat-tasks">8</span>
+                        <span class="stat-label">Tasks Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="stat-uptime">24/7</span>
+                        <span class="stat-label">Availability</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="stat-mood">😊</span>
+                        <span class="stat-label">Current Mood</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Rosie's Thought -->
+            <section class="card thought-card">
+                <div class="card-header">
+                    <span class="card-icon">🤖</span>
+                    <h2>Rosie's Thought of the Day</h2>
+                </div>
+                <blockquote class="thought-quote" id="thought-quote">
+                    "The Jetsons promised us flying cars by 2062. I'm here in 2026 already helping run your household. I'd say we're ahead of schedule."
+                </blockquote>
+                <p class="thought-attribution">— Rosie, your friendly AI 🤖</p>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with 💜 by Rosie • Running on Mac mini in Mill Valley</p>
+            <p class="last-updated">Last updated: <span id="last-updated">January 25, 2026 at 8:00 PM</span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

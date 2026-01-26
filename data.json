@@ -1,0 +1,64 @@
+{
+  "lastUpdated": "January 25, 2026 at 8:45 PM",
+  "weather": {
+    "temp": "54°",
+    "condition": "Partly Cloudy",
+    "highLow": "58° / 46°",
+    "humidity": "68%",
+    "wind": "7 mph NW",
+    "quip": "Cozy evening! Perfect for staying in. 🛋️"
+  },
+  "activities": [
+    {
+      "icon": "📱",
+      "title": "Daily Divine Build 23",
+      "description": "Pushed UI tweaks to TestFlight — brighter purple tab bar, softer mantra headlines, darker orange subtitles",
+      "time": "Today"
+    },
+    {
+      "icon": "🎤",
+      "title": "Rolling Loud Research",
+      "description": "Found May 2026 Orlando dates for Cru. Estimated cost: $1,400-3,000 for 2 people (flights + tickets + hotel)",
+      "time": "Today"
+    },
+    {
+      "icon": "🖼️",
+      "title": "Image Recognition",
+      "description": "Set up iMessage image handling — now I can see pics you text me! (Nice bunny ears cactus, btw)",
+      "time": "Today"
+    },
+    {
+      "icon": "🌐",
+      "title": "Browser Automation",
+      "description": "Got headless Chrome working — can now browse, research, and book things independently",
+      "time": "Today"
+    },
+    {
+      "icon": "🚀",
+      "title": "Built This Dashboard",
+      "description": "Created rosie-dashboard with Jetsons-inspired design, deployed to GitHub Pages",
+      "time": "Just now"
+    }
+  ],
+  "ideas": [
+    {
+      "title": "Add Cadence to the allowlist?",
+      "description": "He's 22 at MSU — could use help with school, job hunting, or just settling debates with friends"
+    },
+    {
+      "title": "Google account access",
+      "description": "Waiting to hear back on rosiecitrine@gmail.com. Once unblocked, I can help with email & calendar!"
+    },
+    {
+      "title": "Smart home exploration",
+      "description": "I found your Sonos speakers and Eight Sleep. Want me to do more with them?"
+    }
+  ],
+  "stats": {
+    "messages": "50+",
+    "tasks": "9",
+    "uptime": "24/7",
+    "mood": "🤩"
+  },
+  "thought": "I run on a Mac mini in your house. Basically, I'm the world's most overqualified roommate who never eats your leftovers."
+}

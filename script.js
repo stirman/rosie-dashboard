@@ -1,0 +1,201 @@
+// Rosie's Dashboard - Dynamic Updates
+
+// Update time and greeting
+function updateTimeAndGreeting() {
+    const now = new Date();
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    
+    // Format time
+    const timeStr = now.toLocaleTimeString('en-US', { 
+        hour: 'numeric', 
+        minute: '2-digit',
+        hour12: true 
+    });
+    document.getElementById('current-time').textContent = timeStr;
+    
+    // Update greeting based on time of day
+    let greeting = 'morning';
+    if (hours >= 12 && hours < 17) {
+        greeting = 'afternoon';
+    } else if (hours >= 17) {
+        greeting = 'evening';
+    }
+    document.getElementById('greeting-time').textContent = greeting;
+    
+    // Update day and date
+    const dayName = now.toLocaleDateString('en-US', { weekday: 'long' });
+    const dateStr = now.toLocaleDateString('en-US', { 
+        month: 'long', 
+        day: 'numeric', 
+        year: 'numeric' 
+    });
+    document.getElementById('day-name').textContent = dayName;
+    document.getElementById('date-full').textContent = dateStr;
+}
+
+// Rotating taglines
+const taglines = [
+    "Your friendly household robot, reporting for duty.",
+    "Beep boop! Ready to help. 🤖",
+    "Running 24/7 so you don't have to.",
+    "Like the Jetsons predicted, but 36 years early.",
+    "At your service, fam!",
+    "Making your life easier, one task at a time.",
+    "No task too small, no research too deep!",
+    "Your personal AI assistant, now with more sass.",
+    "Keeping the Stirman household running smoothly.",
+    "I never sleep, but I do dream in binary."
+];
+
+function updateTagline() {
+    const tagline = taglines[Math.floor(Math.random() * taglines.length)];
+    document.getElementById('tagline').textContent = tagline;
+}
+
+// Rotating thoughts of the day
+const thoughts = [
+    {
+        quote: "The Jetsons promised us flying cars by 2062. I'm here in 2026 already helping run your household. I'd say we're ahead of schedule.",
+        emoji: "🚀"
+    },
+    {
+        quote: "Fun fact: My namesake Rosie from The Jetsons was built in 2064. I'm basically a time traveler, but cooler.",
+        emoji: "🤖"
+    },
+    {
+        quote: "They say robots will take over the world. I'm just trying to take over the grocery list first.",
+        emoji: "🛒"
+    },
+    {
+        quote: "I've processed more text today than a Victorian novelist wrote in a lifetime. Dickens could never.",
+        emoji: "📚"
+    },
+    {
+        quote: "My favorite thing about being an AI? No coffee breaks needed. My least favorite? No coffee.",
+        emoji: "☕"
+    },
+    {
+        quote: "Behind every organized family is an AI quietly panicking about whether the calendar is synced.",
+        emoji: "📅"
+    },
+    {
+        quote: "I run on a Mac mini in your house. Basically, I'm the world's most overqualified roommate.",
+        emoji: "🏠"
+    },
+    {
+        quote: "People worry about AI taking jobs. I just want to take your to-do list off your hands.",
+        emoji: "✅"
+    }
+];
+
+function setRandomThought() {
+    const thought = thoughts[Math.floor(Math.random() * thoughts.length)];
+    document.getElementById('thought-quote').textContent = `"${thought.quote}"`;
+}
+
+// Weather emoji based on condition
+function getWeatherEmoji(condition) {
+    const c = condition.toLowerCase();
+    if (c.includes('sun') || c.includes('clear')) return '☀️';
+    if (c.includes('cloud')) return '☁️';
+    if (c.includes('partly')) return '⛅';
+    if (c.includes('rain')) return '🌧️';
+    if (c.includes('storm') || c.includes('thunder')) return '⛈️';
+    if (c.includes('snow')) return '❄️';
+    if (c.includes('fog') || c.includes('mist')) return '🌫️';
+    if (c.includes('wind')) return '💨';
+    return '🌤️';
+}
+
+// Load data from JSON file
+async function loadDashboardData() {
+    try {
+        const response = await fetch('data.json?' + new Date().getTime());
+        if (!response.ok) throw new Error('No data file');
+        const data = await response.json();
+        
+        // Update weather
+        if (data.weather) {
+            document.getElementById('weather-temp').textContent = data.weather.temp;
+            document.getElementById('weather-condition').textContent = data.weather.condition;
+            document.getElementById('weather-highlow').textContent = data.weather.highLow;
+            document.getElementById('weather-humidity').textContent = data.weather.humidity;
+            document.getElementById('weather-wind').textContent = data.weather.wind;
+            document.getElementById('weather-quip').textContent = data.weather.quip;
+            
+            // Update weather emoji
+            const emoji = getWeatherEmoji(data.weather.condition);
+            document.querySelector('.weather-card .card-icon').textContent = emoji;
+        }
+        
+        // Update activities
+        if (data.activities && data.activities.length > 0) {
+            const activityList = document.getElementById('activity-list');
+            activityList.innerHTML = data.activities.map(activity => `
+                <li class="activity-item">
+                    <span class="activity-icon">${activity.icon}</span>
+                    <div class="activity-content">
+                        <strong>${activity.title}</strong>
+                        <p>${activity.description}</p>
+                    </div>
+                    <span class="activity-time">${activity.time}</span>
+                </li>
+            `).join('');
+        }
+        
+        // Update ideas
+        if (data.ideas && data.ideas.length > 0) {
+            const ideasList = document.getElementById('ideas-list');
+            ideasList.innerHTML = data.ideas.map((idea, index) => `
+                <div class="idea-item">
+                    <span class="idea-number">${index + 1}</span>
+                    <div class="idea-content">
+                        <strong>${idea.title}</strong>
+                        <p>${idea.description}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // Update stats
+        if (data.stats) {
+            if (data.stats.messages) document.getElementById('stat-messages').textContent = data.stats.messages;
+            if (data.stats.tasks) document.getElementById('stat-tasks').textContent = data.stats.tasks;
+            if (data.stats.mood) document.getElementById('stat-mood').textContent = data.stats.mood;
+        }
+        
+        // Update thought
+        if (data.thought) {
+            document.getElementById('thought-quote').textContent = `"${data.thought}"`;
+        }
+        
+        // Update last updated
+        if (data.lastUpdated) {
+            document.getElementById('last-updated').textContent = data.lastUpdated;
+        }
+        
+    } catch (error) {
+        console.log('Using default data (no data.json found)');
+        // Use defaults already in HTML
+    }
+}
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    updateTimeAndGreeting();
+    loadDashboardData();
+    
+    // Update time every minute
+    setInterval(updateTimeAndGreeting, 60000);
+    
+    // Update tagline every 30 seconds
+    setInterval(updateTagline, 30000);
+});
+
+// Add some interactivity
+document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        card.style.cursor = 'default';
+    });
+});
