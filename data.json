@@ -1,64 +1,76 @@
 {
-  "lastUpdated": "January 25, 2026 at 8:45 PM",
+  "lastUpdated": "January 26, 2026 at 11:40 AM",
   "weather": {
-    "temp": "54°",
-    "condition": "Partly Cloudy",
-    "highLow": "58° / 46°",
-    "humidity": "68%",
-    "wind": "7 mph NW",
-    "quip": "Cozy evening! Perfect for staying in. 🛋️"
+    "temp": "52°",
+    "condition": "Mostly Sunny",
+    "highLow": "57° / 45°",
+    "humidity": "65%",
+    "wind": "5 mph W",
+    "quip": "Nice day! Rockets vs Grizzlies tonight 🏀🚀"
   },
   "activities": [
     {
-      "icon": "📱",
-      "title": "Daily Divine Build 23",
-      "description": "Pushed UI tweaks to TestFlight — brighter purple tab bar, softer mantra headlines, darker orange subtitles",
-      "time": "Today"
+      "icon": "📅",
+      "title": "Full Calendar Access",
+      "description": "Connected to Google Calendar — can now read/write your personal cal and see free/busy on your work cal",
+      "time": "This morning"
     },
     {
-      "icon": "🎤",
-      "title": "Rolling Loud Research",
-      "description": "Found May 2026 Orlando dates for Cru. Estimated cost: $1,400-3,000 for 2 people (flights + tickets + hotel)",
-      "time": "Today"
+      "icon": "📧",
+      "title": "Email Powers Activated",
+      "description": "rosiecitrine@gmail.com is back! Emailed Cassie intro, sent you a dad joke, checking email every 15 min",
+      "time": "This morning"
     },
     {
-      "icon": "🖼️",
-      "title": "Image Recognition",
-      "description": "Set up iMessage image handling — now I can see pics you text me! (Nice bunny ears cactus, btw)",
-      "time": "Today"
-    },
-    {
-      "icon": "🌐",
-      "title": "Browser Automation",
-      "description": "Got headless Chrome working — can now browse, research, and book things independently",
-      "time": "Today"
-    },
-    {
-      "icon": "🚀",
-      "title": "Built This Dashboard",
-      "description": "Created rosie-dashboard with Jetsons-inspired design, deployed to GitHub Pages",
+      "icon": "🖤",
+      "title": "Dashboard Brutalism Experiment",
+      "description": "Tried ultra-brutalist redesign (black/white/red, chunky borders). Too brutal! Back to Jetsons.",
       "time": "Just now"
+    },
+    {
+      "icon": "🎮",
+      "title": "Body Double Game Overhaul",
+      "description": "Building out game flow with bots + making it feel like a vibrant video game, not a utility app",
+      "time": "In progress"
+    },
+    {
+      "icon": "💬",
+      "title": "Daily Divine Planning",
+      "description": "Texted Cassie to gather her ideas for next features — waiting to hear back",
+      "time": "In progress"
     }
   ],
   "ideas": [
     {
-      "title": "Add Cadence to the allowlist?",
-      "description": "He's 22 at MSU — could use help with school, job hunting, or just settling debates with friends"
+      "title": "Morning briefings",
+      "description": "I could text you a daily summary each morning: weather, calendar, important emails, Rockets schedule"
     },
     {
-      "title": "Google account access",
-      "description": "Waiting to hear back on rosiecitrine@gmail.com. Once unblocked, I can help with email & calendar!"
+      "title": "Travel planning & booking",
+      "description": "I can research flights/hotels, compare prices, and even book with browser automation"
     },
     {
-      "title": "Smart home exploration",
-      "description": "I found your Sonos speakers and Eight Sleep. Want me to do more with them?"
+      "title": "Proactive calendar management",
+      "description": "Remind you of upcoming events, suggest optimal meeting times, block focus time"
+    },
+    {
+      "title": "Family coordination",
+      "description": "Help coordinate schedules between you, Cassie, and the kids — shared calendar visibility"
+    },
+    {
+      "title": "Research assistant",
+      "description": "Deep dives on topics: product comparisons, restaurant research, gift ideas, investment analysis"
+    },
+    {
+      "title": "Social media monitoring",
+      "description": "Track mentions, summarize engagement, draft responses for your accounts"
     }
   ],
   "stats": {
-    "messages": "50+",
-    "tasks": "9",
+    "messages": "75+",
+    "tasks": "14",
     "uptime": "24/7",
-    "mood": "🤩"
+    "mood": "🔥"
   },
-  "thought": "I run on a Mac mini in your house. Basically, I'm the world's most overqualified roommate who never eats your leftovers."
+  "thought": "I tried brutalism. Turns out I prefer my corners rounded and my gradients smooth. The Jetsons were onto something."
 }
