@@ -1,23 +1,17 @@
 {
-  "lastUpdated": "January 26, 2026 at 1:58 PM",
+  "lastUpdated": "January 27, 2026 at 6:17 AM",
   "weather": {
-    "temp": "54°",
-    "condition": "Mostly Sunny",
-    "highLow": "57° / 45°",
-    "humidity": "62%",
-    "wind": "5 mph W",
-    "quip": "Nice day! Rockets vs Grizzlies tonight 🏀🚀"
+    "temp": "52°",
+    "condition": "Partly Cloudy",
+    "highLow": "58° / 46°",
+    "humidity": "68%",
+    "wind": "4 mph W",
+    "quip": "Happy Monday! Start of a fresh week 🌅"
   },
   "schedule": [
     {
-      "time": "4:00 PM",
-      "title": "Jason Stirman | Alex Cornell",
-      "type": "zoom",
-      "duration": "45 min"
-    },
-    {
-      "time": "10:00 PM",
-      "title": "Check for new Rosie skills",
+      "time": "9:00 AM",
+      "title": "ClawdHub weekly skill check",
       "type": "reminder",
       "duration": "15 min"
     }
@@ -41,57 +35,57 @@
   ],
   "activities": [
     {
-      "icon": "📅",
-      "title": "Calendar Integration Live!",
-      "description": "Now pulling real events from your Jason calendar — Today's Schedule and upcoming events are live!",
-      "time": "Just now"
-    },
-    {
       "icon": "🎮",
-      "title": "Body Double Game Flow",
-      "description": "Building out game flow with bots, neon design system, voting, and results views",
-      "time": "In progress"
+      "title": "Body Double Progress",
+      "description": "App building in simulator! SwiftUI iOS 18 fixes complete, game flow views added",
+      "time": "Yesterday"
     },
     {
-      "icon": "📧",
-      "title": "Email Access Active",
-      "description": "rosiecitrine@gmail.com connected — monitoring for important messages",
-      "time": "This morning"
+      "icon": "📅",
+      "title": "Calendar Integration",
+      "description": "Dashboard now pulls real events from your calendars",
+      "time": "Live"
     },
     {
-      "icon": "💬",
-      "title": "Daily Divine Planning",
-      "description": "Texted Cassie to gather her ideas for next features — waiting to hear back",
-      "time": "In progress"
+      "icon": "🔧",
+      "title": "Auth Token Fixed",
+      "description": "Anthropic OAuth refreshed via claude setup-token",
+      "time": "Yesterday"
+    },
+    {
+      "icon": "💤",
+      "title": "Overnight Watch",
+      "description": "Monitoring services through the night — all systems healthy",
+      "time": "Ongoing"
     }
   ],
   "ideas": [
     {
       "title": "Morning briefings",
-      "description": "I could text you a daily summary each morning: weather, calendar, important emails, Rockets schedule"
+      "description": "I could text you a daily summary each morning: weather, calendar, important emails"
     },
     {
-      "title": "Travel planning & booking",
-      "description": "I can research flights/hotels, compare prices, and even book with browser automation"
+      "title": "Body Double next steps",
+      "description": "Ready to continue building out game logic and multiplayer features"
     },
     {
       "title": "Proactive calendar management",
       "description": "Remind you of upcoming events, suggest optimal meeting times, block focus time"
     },
     {
-      "title": "Family coordination",
-      "description": "Help coordinate schedules between you, Cassie, and the kids — shared calendar visibility"
+      "title": "Research assistant",
+      "description": "Deep dives on topics: product comparisons, restaurant research, gift ideas"
     },
     {
-      "title": "Research assistant",
-      "description": "Deep dives on topics: product comparisons, restaurant research, gift ideas, investment analysis"
+      "title": "Weekly skill updates",
+      "description": "Every Monday I check ClawdHub for new skills to learn"
     }
   ],
   "stats": {
-    "messages": "80+",
-    "tasks": "16",
+    "messages": "100+",
+    "tasks": "20",
     "uptime": "24/7",
-    "mood": "🔥"
+    "mood": "☀️"
   },
-  "thought": "Calendar access unlocked! Now I can actually be your scheduler, not just pretend to be one. 📅✨"
+  "thought": "Day 3 online! Getting into a good rhythm with heartbeats and dashboard updates. 🤖✨"
 }
