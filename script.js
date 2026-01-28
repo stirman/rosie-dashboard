@@ -208,6 +208,46 @@ async function loadDashboardData() {
             document.getElementById('last-updated').textContent = data.lastUpdated;
         }
         
+        // Update current work
+        if (data.currentWork) {
+            const work = data.currentWork;
+            const section = document.getElementById('current-work-section');
+            const indicator = document.getElementById('status-indicator');
+            const title = document.getElementById('work-title');
+            const description = document.getElementById('work-description');
+            const progressContainer = document.getElementById('work-progress-container');
+            const progressFill = document.getElementById('work-progress-fill');
+            const progressText = document.getElementById('work-progress-text');
+            const startedEl = document.getElementById('work-started');
+            
+            if (work.status === 'active') {
+                section.classList.add('active');
+                indicator.classList.remove('idle');
+                indicator.classList.add('active');
+            } else {
+                section.classList.remove('active');
+                indicator.classList.remove('active');
+                indicator.classList.add('idle');
+            }
+            
+            title.textContent = work.title || 'Standing by';
+            description.textContent = work.description || 'Ready for tasks';
+            
+            if (work.progress !== null && work.progress !== undefined) {
+                progressContainer.style.display = 'block';
+                progressFill.style.width = work.progress + '%';
+                progressText.textContent = work.progress + '% complete';
+            } else {
+                progressContainer.style.display = 'none';
+            }
+            
+            if (work.startedAt) {
+                startedEl.textContent = 'Started: ' + work.startedAt;
+            } else {
+                startedEl.textContent = '';
+            }
+        }
+        
     } catch (error) {
         console.log('Using default data (no data.json found)');
         // Use defaults already in HTML

@@ -242,6 +242,97 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Currently Working On Card */
+.current-work-card {
+    background: linear-gradient(135deg, var(--bg-card) 0%, rgba(255, 107, 107, 0.15) 100%);
+    border: 1px solid rgba(255, 107, 107, 0.3);
+}
+
+.current-work-card.active {
+    animation: workPulse 2s ease-in-out infinite;
+}
+
+@keyframes workPulse {
+    0%, 100% { border-color: rgba(255, 107, 107, 0.3); }
+    50% { border-color: rgba(255, 107, 107, 0.6); box-shadow: 0 0 20px rgba(255, 107, 107, 0.2); }
+}
+
+.current-work-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.work-status {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.status-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.status-indicator.idle {
+    background: var(--text-muted);
+}
+
+.status-indicator.active {
+    background: var(--rosie-coral);
+    animation: blink 1s ease-in-out infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+
+.status-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.work-description {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.work-progress {
+    margin-top: var(--space-sm);
+}
+
+.progress-bar {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--gradient-warm);
+    border-radius: var(--radius-full);
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: var(--space-xs);
+    display: block;
+}
+
+.work-started {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: var(--space-xs);
+}
+
 /* Activity Card */
 .activity-card {
     grid-column: span 2;
