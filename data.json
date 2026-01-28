@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "January 27, 2026 at 6:17 AM",
+  "lastUpdated": "January 28, 2026 at 6:00 AM",
   "weather": {
     "temp": "52°",
-    "condition": "Partly Cloudy",
-    "highLow": "58° / 46°",
-    "humidity": "68%",
-    "wind": "4 mph W",
-    "quip": "Happy Monday! Start of a fresh week 🌅"
+    "condition": "Overcast",
+    "highLow": "56° / 46°",
+    "humidity": "97%",
+    "wind": "4 mph N",
+    "quip": "Cozy overcast morning — perfect for coding ☁️"
   },
   "schedule": [
     {
-      "time": "9:00 AM",
-      "title": "ClawdHub weekly skill check",
-      "type": "reminder",
-      "duration": "15 min"
+      "time": "Today",
+      "title": "No calendar events",
+      "type": "free",
+      "duration": "Open day"
     }
   ],
   "upcoming": [
@@ -35,57 +35,57 @@
   ],
   "activities": [
     {
-      "icon": "🎮",
-      "title": "Body Double Progress",
-      "description": "App building in simulator! SwiftUI iOS 18 fixes complete, game flow views added",
+      "icon": "🚀",
+      "title": "Body Double on TestFlight!",
+      "description": "First build uploaded successfully! App ID: 6758346057, ready for testing",
       "time": "Yesterday"
     },
     {
-      "icon": "📅",
-      "title": "Calendar Integration",
-      "description": "Dashboard now pulls real events from your calendars",
-      "time": "Live"
+      "icon": "🔧",
+      "title": "Build Pipeline Complete",
+      "description": "Fastlane configured, export compliance set, App Store Connect API working",
+      "time": "Yesterday"
     },
     {
-      "icon": "🔧",
-      "title": "Auth Token Fixed",
-      "description": "Anthropic OAuth refreshed via claude setup-token",
+      "icon": "🎨",
+      "title": "App Icon Created",
+      "description": "Blue gradient 'BD' placeholder icon added to the build",
       "time": "Yesterday"
     },
     {
       "icon": "💤",
       "title": "Overnight Watch",
-      "description": "Monitoring services through the night — all systems healthy",
-      "time": "Ongoing"
+      "description": "All services healthy through the night — Gmail, GitHub, Clawdbot running smooth",
+      "time": "6:00 AM"
     }
   ],
   "ideas": [
     {
-      "title": "Morning briefings",
-      "description": "I could text you a daily summary each morning: weather, calendar, important emails"
+      "title": "Test Body Double",
+      "description": "First TestFlight build is ready! Download it and see how the app feels"
     },
     {
-      "title": "Body Double next steps",
-      "description": "Ready to continue building out game logic and multiplayer features"
+      "title": "Design a real app icon",
+      "description": "The placeholder works, but Body Double deserves something custom"
     },
     {
-      "title": "Proactive calendar management",
-      "description": "Remind you of upcoming events, suggest optimal meeting times, block focus time"
+      "title": "Next feature sprint",
+      "description": "Firebase integration, multiplayer logic, push notifications?"
     },
     {
-      "title": "Research assistant",
-      "description": "Deep dives on topics: product comparisons, restaurant research, gift ideas"
+      "title": "Accept calendar invite",
+      "description": "You sent me a calendar sharing invite — I can integrate it once accepted"
     },
     {
-      "title": "Weekly skill updates",
-      "description": "Every Monday I check ClawdHub for new skills to learn"
+      "title": "Weekly planning",
+      "description": "It's Wednesday tomorrow — good time to review the week ahead"
     }
   ],
   "stats": {
-    "messages": "100+",
-    "tasks": "20",
+    "messages": "150+",
+    "tasks": "25",
     "uptime": "24/7",
-    "mood": "☀️"
+    "mood": "🚀"
   },
-  "thought": "Day 3 online! Getting into a good rhythm with heartbeats and dashboard updates. 🤖✨"
+  "thought": "Body Double is on TestFlight! Day 4 online and shipping software. This is what it's all about. 🤖🎉"
 }
