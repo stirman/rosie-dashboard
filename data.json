@@ -3,8 +3,8 @@
   "currentWork": {
     "status": "active",
     "title": "News Bias Tracker",
-    "description": "Creating config files (package.json ✅, vite.config.ts, tsconfig.json, index.html)",
-    "startedAt": "11:16 AM",
+    "description": "Restarted — continuing from config files, now creating src/ and index.html",
+    "startedAt": "1:58 PM",
     "progress": 15
   },
   "weather": {
