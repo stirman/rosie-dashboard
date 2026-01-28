@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "January 28, 2026 at 6:00 AM",
+  "lastUpdated": "January 28, 2026 at 8:28 AM",
   "weather": {
     "temp": "52°",
     "condition": "Overcast",
@@ -18,7 +18,7 @@
   ],
   "upcoming": [
     {
-      "date": "Wed, Jan 29",
+      "date": "Thu, Jan 29",
       "title": "Cru Dentist",
       "time": "11:15 AM"
     },
@@ -82,7 +82,7 @@
     }
   ],
   "stats": {
-    "messages": "150+",
+    "messages": "~310",
     "tasks": "25",
     "uptime": "24/7",
     "mood": "🚀"
