@@ -1,27 +1,28 @@
 {
-  "lastUpdated": "January 29, 2026 at 10:08 AM",
+  "lastUpdated": "January 29, 2026 at 11:51 AM",
   "currentWork": {
     "status": "building",
-    "title": "🧾 Receipts — Hot Takes App",
-    "description": "Scaffolding Next.js project with the approved 2A receipt card design",
-    "startedAt": "10:07 AM",
+    "title": "🧾 Receipts — Database + Share Cards",
+    "description": "Adding Prisma/Postgres for real takes, then OG image generation for sharing",
+    "startedAt": "11:51 AM",
     "completedAt": null,
-    "progress": 5
+    "progress": 35
   },
   "weather": {
-    "temp": "44°",
-    "condition": "Mainly Clear",
+    "temp": "48°",
+    "condition": "Sunny",
     "highLow": "55° / 42°",
-    "humidity": "78%",
-    "wind": "8 mph",
-    "quip": "Crisp January morning — perfect for hot coffee ☕"
+    "humidity": "65%",
+    "wind": "6 mph",
+    "quip": "Beautiful day in Mill Valley ☀️"
   },
   "schedule": [
     {
       "time": "11:15 AM",
       "title": "Cru Dentist",
       "type": "appointment",
-      "duration": "~1 hour"
+      "duration": "~1 hour",
+      "note": "In progress"
     }
   ],
   "upcoming": [
@@ -38,38 +39,34 @@
   ],
   "activities": [
     {
+      "icon": "🚀",
+      "title": "Receipts Deployed to Vercel!",
+      "description": "MVP live at receipts-emz9ptbfv-stirmans-projects.vercel.app",
+      "time": "11:49 AM"
+    },
+    {
       "icon": "🧾",
-      "title": "Starting Receipts Build",
-      "description": "Hot takes app — locking in predictions with shareable receipt cards",
-      "time": "10:08 AM"
+      "title": "Receipts MVP Built",
+      "description": "Next.js + Receipt cards + Take form — Phase 1 foundation complete",
+      "time": "10:12 AM"
     },
     {
       "icon": "🎨",
       "title": "Receipts Design Approved",
-      "description": "Design 2A selected — classic paper receipt aesthetic with bold take text",
+      "description": "Design 2A selected — classic paper receipt with bold take text",
       "time": "10:07 AM"
     },
     {
       "icon": "🚀",
-      "title": "News Bias Tracker Live!",
-      "description": "MVP shipped at stirman.github.io/news-bias-tracker",
+      "title": "News Bias Tracker Live",
+      "description": "MVP at stirman.github.io/news-bias-tracker",
       "time": "Yesterday"
-    },
-    {
-      "icon": "📱",
-      "title": "Body Double on TestFlight",
-      "description": "First build uploaded! App ID: 6758346057",
-      "time": "Jan 27"
     }
   ],
   "ideas": [
     {
-      "title": "Receipts: AI take verification",
-      "description": "Claude API to parse natural language takes into verifiable predictions"
-    },
-    {
-      "title": "Receipts: NBA data integration",
-      "description": "Auto-resolve takes using NBA API standings and game results"
+      "title": "Receipts: Custom domain",
+      "description": "Once concept is proven, get a proper domain (receipts.app?)"
     },
     {
       "title": "Receipts: App Clip",
@@ -77,14 +74,14 @@
     },
     {
       "title": "Add bias scoring to News Tracker",
-      "description": "MVP displays articles — next: calculate actual bias scores"
+      "description": "Calculate actual bias scores with ML"
     }
   ],
   "stats": {
-    "messages": "~360",
-    "tasks": "29",
+    "messages": "~370",
+    "tasks": "31",
     "uptime": "24/7",
     "mood": "🔥"
   },
-  "thought": "New build incoming! Receipts app is going to be fun — sports predictions with proof. Let's cook 🧾🔥"
+  "thought": "Receipts is LIVE! Now adding the database so takes actually persist. This is gonna be fun 🧾"
 }
