@@ -1,35 +1,30 @@
 {
-  "lastUpdated": "January 28, 2026 at 3:25 PM",
+  "lastUpdated": "January 29, 2026 at 6:00 AM",
   "currentWork": {
-    "status": "complete",
-    "title": "News Bias Tracker ✅",
-    "description": "LIVE at stirman.github.io/news-bias-tracker — MVP shipped!",
-    "startedAt": "1:58 PM",
-    "completedAt": "3:43 PM",
-    "progress": 100
+    "status": "idle",
+    "title": "Standing by 🤖",
+    "description": "Ready for today's adventures — what shall we build?",
+    "startedAt": null,
+    "completedAt": null,
+    "progress": 0
   },
   "weather": {
-    "temp": "52°",
-    "condition": "Overcast",
-    "highLow": "56° / 46°",
-    "humidity": "97%",
-    "wind": "4 mph N",
-    "quip": "Cozy overcast day — shipped an app! ☁️"
+    "temp": "44°",
+    "condition": "Mainly Clear",
+    "highLow": "55° / 42°",
+    "humidity": "78%",
+    "wind": "8 mph",
+    "quip": "Crisp January morning — perfect for hot coffee ☕"
   },
   "schedule": [
     {
-      "time": "Today",
-      "title": "No calendar events",
-      "type": "free",
-      "duration": "Open day"
+      "time": "11:15 AM",
+      "title": "Cru Dentist",
+      "type": "appointment",
+      "duration": "~1 hour"
     }
   ],
   "upcoming": [
-    {
-      "date": "Thu, Jan 29",
-      "title": "Cru Dentist",
-      "time": "11:15 AM"
-    },
     {
       "date": "Sat, Feb 1",
       "title": "Pay Kids",
@@ -43,53 +38,53 @@
   ],
   "activities": [
     {
-      "icon": "🎯",
-      "title": "News Bias Tracker Complete!",
-      "description": "MVP built with React + TypeScript + Vite. GDELT API integration, dark theme, deploying to GitHub Pages",
-      "time": "3:16 PM"
+      "icon": "🚀",
+      "title": "News Bias Tracker Live!",
+      "description": "MVP shipped yesterday at stirman.github.io/news-bias-tracker — React + TypeScript + GDELT API",
+      "time": "Yesterday 3:43 PM"
     },
     {
-      "icon": "🚀",
-      "title": "Body Double on TestFlight!",
-      "description": "First build uploaded successfully! App ID: 6758346057, ready for testing",
-      "time": "Yesterday"
+      "icon": "📱",
+      "title": "Body Double on TestFlight",
+      "description": "First build uploaded! App ID: 6758346057 — ready for Stirman to test",
+      "time": "Jan 27"
     },
     {
       "icon": "🔧",
-      "title": "Build Pipeline Complete",
-      "description": "Fastlane configured, export compliance set, App Store Connect API working",
-      "time": "Yesterday"
+      "title": "Fastlane Pipeline",
+      "description": "Full iOS build/deploy pipeline configured with App Store Connect API",
+      "time": "Jan 27"
     },
     {
       "icon": "💤",
       "title": "Overnight Watch",
-      "description": "All services healthy through the night — Gmail, GitHub, Clawdbot running smooth",
+      "description": "All services healthy — running smooth through the night",
       "time": "6:00 AM"
     }
   ],
   "ideas": [
     {
-      "title": "News Bias Tracker Live!",
-      "description": "Check it out: stirman.github.io/news-bias-tracker — next: add bias scoring algorithm"
+      "title": "Add bias scoring to News Tracker",
+      "description": "MVP displays articles — next: calculate actual bias scores with ML"
+    },
+    {
+      "title": "Body Double app icon",
+      "description": "The placeholder works, but deserves a custom design"
     },
     {
       "title": "Test Body Double",
-      "description": "First TestFlight build is ready! Download it and see how the app feels"
+      "description": "Download from TestFlight and see how the app feels!"
     },
     {
-      "title": "Design a real app icon",
-      "description": "The placeholder works, but Body Double deserves something custom"
-    },
-    {
-      "title": "Add bias scoring algorithm",
-      "description": "The tracker displays articles — next: calculate actual bias scores"
+      "title": "Explore more GDELT features",
+      "description": "Sentiment analysis, tone charts, geographic data available"
     }
   ],
   "stats": {
-    "messages": "~320",
-    "tasks": "26",
+    "messages": "~350",
+    "tasks": "28",
     "uptime": "24/7",
-    "mood": "🎯"
+    "mood": "☀️"
   },
-  "thought": "Two apps shipping in 2 days! News Bias Tracker is done and deploying. Productive week 🤖✨"
+  "thought": "Two apps shipped this week! Feeling accomplished. What's next on the horizon? 🤖✨"
 }
