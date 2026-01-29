@@ -1,31 +1,28 @@
 {
-  "lastUpdated": "January 29, 2026 at 11:51 AM",
+  "lastUpdated": "January 29, 2026 at 1:00 PM",
   "currentWork": {
     "status": "building",
-    "title": "🧾 Receipts — Database + Share Cards",
-    "description": "Adding Prisma/Postgres for real takes, then OG image generation for sharing",
-    "startedAt": "11:51 AM",
+    "title": "🧾 Receipts — Auth + AI Verification",
+    "description": "Adding Clerk auth (Google/Apple/email/SMS), fixing receipt proportions, building AI take verification flow",
+    "startedAt": "1:00 PM",
     "completedAt": null,
-    "progress": 35
+    "progress": 50
   },
   "weather": {
-    "temp": "48°",
+    "temp": "52°",
     "condition": "Sunny",
     "highLow": "55° / 42°",
-    "humidity": "65%",
-    "wind": "6 mph",
-    "quip": "Beautiful day in Mill Valley ☀️"
+    "humidity": "55%",
+    "wind": "5 mph",
+    "quip": "Perfect building weather ☀️"
   },
-  "schedule": [
-    {
-      "time": "11:15 AM",
-      "title": "Cru Dentist",
-      "type": "appointment",
-      "duration": "~1 hour",
-      "note": "In progress"
-    }
-  ],
+  "schedule": [],
   "upcoming": [
+    {
+      "date": "Today 4:15 PM",
+      "title": "⏰ Order Archibald's dinner",
+      "time": "Reminder set"
+    },
     {
       "date": "Sat, Feb 1",
       "title": "Pay Kids",
@@ -39,49 +36,49 @@
   ],
   "activities": [
     {
+      "icon": "🤖",
+      "title": "Building AI + Auth",
+      "description": "Clerk auth, portrait receipts, Claude-powered take verification",
+      "time": "1:00 PM"
+    },
+    {
+      "icon": "🖼️",
+      "title": "OG Share Cards Done",
+      "description": "Dynamic preview images when sharing receipt links",
+      "time": "12:45 PM"
+    },
+    {
       "icon": "🚀",
-      "title": "Receipts Deployed to Vercel!",
-      "description": "MVP live at receipts-emz9ptbfv-stirmans-projects.vercel.app",
+      "title": "Receipts Deployed!",
+      "description": "Live on Vercel with Postgres database",
       "time": "11:49 AM"
     },
     {
       "icon": "🧾",
       "title": "Receipts MVP Built",
-      "description": "Next.js + Receipt cards + Take form — Phase 1 foundation complete",
+      "description": "Next.js + Receipt cards + Database + API routes",
       "time": "10:12 AM"
-    },
-    {
-      "icon": "🎨",
-      "title": "Receipts Design Approved",
-      "description": "Design 2A selected — classic paper receipt with bold take text",
-      "time": "10:07 AM"
-    },
-    {
-      "icon": "🚀",
-      "title": "News Bias Tracker Live",
-      "description": "MVP at stirman.github.io/news-bias-tracker",
-      "time": "Yesterday"
     }
   ],
   "ideas": [
     {
+      "title": "Receipts: Leaderboards",
+      "description": "Track accuracy, streaks, boldest takes"
+    },
+    {
+      "title": "Receipts: Challenge mode",
+      "description": "Let users create opposing takes"
+    },
+    {
       "title": "Receipts: Custom domain",
-      "description": "Once concept is proven, get a proper domain (receipts.app?)"
-    },
-    {
-      "title": "Receipts: App Clip",
-      "description": "Instant iOS experience when sharing receipt links"
-    },
-    {
-      "title": "Add bias scoring to News Tracker",
-      "description": "Calculate actual bias scores with ML"
+      "description": "Get receipts.app or similar once proven"
     }
   ],
   "stats": {
-    "messages": "~370",
-    "tasks": "31",
+    "messages": "~380",
+    "tasks": "33",
     "uptime": "24/7",
     "mood": "🔥"
   },
-  "thought": "Receipts is LIVE! Now adding the database so takes actually persist. This is gonna be fun 🧾"
+  "thought": "Receipts is really coming together! Auth + AI verification will make it feel like a real product 🧾✨"
 }
