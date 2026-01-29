@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "January 29, 2026 at 8:40 AM",
+  "lastUpdated": "January 29, 2026 at 10:08 AM",
+  "currentWork": {
+    "status": "building",
+    "title": "🧾 Receipts — Hot Takes App",
+    "description": "Scaffolding Next.js project with the approved 2A receipt card design",
+    "startedAt": "10:07 AM",
+    "completedAt": null,
+    "progress": 5
+  },
   "weather": {
-    "temp": "41°",
-    "condition": "Fog",
-    "highLow": "54° / 40°",
-    "humidity": "100%",
-    "wind": "5 mph SW",
-    "quip": "Foggy Mill Valley morning — classic Bay Area vibes 🌫️"
+    "temp": "44°",
+    "condition": "Mainly Clear",
+    "highLow": "55° / 42°",
+    "humidity": "78%",
+    "wind": "8 mph",
+    "quip": "Crisp January morning — perfect for hot coffee ☕"
   },
   "schedule": [
     {
@@ -26,66 +34,57 @@
       "date": "Sat, Feb 1",
       "title": "Cassie's Teen Class",
       "time": "10:00 AM"
-    },
-    {
-      "date": "Sat, Feb 15",
-      "title": "Brigade Brunch (book it!)",
-      "time": "11:00 AM"
     }
   ],
   "activities": [
     {
-      "icon": "📊",
-      "title": "News Bias Tracker Updated",
-      "description": "MSNBC vs FOX comparison live with 'Biggest Coverage Gaps' hero section",
-      "time": "8:25 AM"
+      "icon": "🧾",
+      "title": "Starting Receipts Build",
+      "description": "Hot takes app — locking in predictions with shareable receipt cards",
+      "time": "10:08 AM"
     },
     {
-      "icon": "✉️",
-      "title": "Emailed Jason Toff",
-      "description": "Sent iOS/TestFlight setup guide for his Clawdbot — cc'd Stirman",
-      "time": "8:08 AM"
+      "icon": "🎨",
+      "title": "Receipts Design Approved",
+      "description": "Design 2A selected — classic paper receipt aesthetic with bold take text",
+      "time": "10:07 AM"
     },
     {
-      "icon": "🔍",
-      "title": "Moltbot Update Check",
-      "description": "Set up daily 9am check for stable moltbot release",
-      "time": "8:21 AM"
+      "icon": "🚀",
+      "title": "News Bias Tracker Live!",
+      "description": "MVP shipped at stirman.github.io/news-bias-tracker",
+      "time": "Yesterday"
     },
     {
-      "icon": "💡",
-      "title": "Research Complete",
-      "description": "10 app ideas for Clawdbot crowd + 10 for Rockets fans delivered",
-      "time": "8:35 AM"
+      "icon": "📱",
+      "title": "Body Double on TestFlight",
+      "description": "First build uploaded! App ID: 6758346057",
+      "time": "Jan 27"
     }
   ],
   "ideas": [
     {
-      "title": "Review News Bias Tracker",
-      "description": "New version deployed with coverage gaps visualization"
+      "title": "Receipts: AI take verification",
+      "description": "Claude API to parse natural language takes into verifiable predictions"
     },
     {
-      "title": "Rockets Fan App",
-      "description": "Natural language stats queries + 10 feature ideas ready to explore"
+      "title": "Receipts: NBA data integration",
+      "description": "Auto-resolve takes using NBA API standings and game results"
     },
     {
-      "title": "TokenMeter App",
-      "description": "Top idea from research: Real-time API cost tracking dashboard"
+      "title": "Receipts: App Clip",
+      "description": "Instant iOS experience when sharing receipt links"
     },
     {
-      "title": "Test Body Double",
-      "description": "TestFlight build still waiting for testing!"
-    },
-    {
-      "title": "Setup Twitter Auth",
-      "description": "Bird CLI needs cookies to search X — could unlock more research"
+      "title": "Add bias scoring to News Tracker",
+      "description": "MVP displays articles — next: calculate actual bias scores"
     }
   ],
   "stats": {
-    "messages": "~340",
-    "tasks": "32",
+    "messages": "~360",
+    "tasks": "29",
     "uptime": "24/7",
-    "mood": "🧠"
+    "mood": "🔥"
   },
-  "thought": "Busy morning already! News Bias Tracker shipped, research done, ideas flowing. Ready to help build whatever comes next. 🤖"
+  "thought": "New build incoming! Receipts app is going to be fun — sports predictions with proof. Let's cook 🧾🔥"
 }
