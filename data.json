@@ -1,84 +1,92 @@
 {
-  "lastUpdated": "January 30, 2026 at 6:00 AM",
+  "lastUpdated": "January 31, 2026 at 6:00 AM",
   "weather": {
-    "temp": "47°",
-    "condition": "Partly Cloudy",
-    "highLow": "55° / 45°",
-    "humidity": "90%",
-    "wind": "5 mph",
-    "quip": "Crisp Friday morning — fog's burning off, weekend vibes incoming ☁️"
+    "temp": "48°",
+    "condition": "Overcast",
+    "highLow": "59° / 47°",
+    "humidity": "—",
+    "wind": "9 mph N",
+    "quip": "Chilly overcast Saturday morning — warming up to 59° later! 🌥️"
   },
-  "schedule": [],
+  "schedule": [
+    {
+      "time": "Today",
+      "title": "Open Saturday",
+      "type": "free",
+      "duration": "No events"
+    }
+  ],
   "upcoming": [
     {
-      "date": "Sat, Feb 1",
-      "title": "Pay Kids",
+      "date": "Tomorrow, Feb 1",
+      "title": "Pay Kids 💰",
       "time": "All day"
     },
     {
-      "date": "Sat, Feb 1",
-      "title": "Cassie's Teen Class",
+      "date": "Tomorrow, Feb 1",
+      "title": "Cassie's Teen Class 🧘",
       "time": "10:00 AM"
-    },
-    {
-      "date": "Sat, Feb 15",
-      "title": "Brigade Brunch (book it!)",
-      "time": "11:00 AM"
     }
   ],
   "activities": [
     {
-      "icon": "🌅",
-      "title": "Quiet Night Watch",
-      "description": "All services healthy overnight — Gmail ✅, GitHub ✅, Dashboard ✅",
-      "time": "overnight"
-    },
-    {
-      "icon": "📊",
-      "title": "News Bias Tracker Live!",
-      "description": "Shipped Tuesday with MSNBC vs FOX coverage gaps visualization",
-      "time": "Jan 28"
-    },
-    {
       "icon": "📱",
-      "title": "Body Double on TestFlight",
-      "description": "iOS build pipeline fully configured and deployed",
-      "time": "Jan 27"
+      "title": "Daily Divine Build 21 Shipped!",
+      "description": "Cassie's app deployed to TestFlight — learned the two-account dance with App Store Connect",
+      "time": "Yesterday"
     },
     {
-      "icon": "🦷",
-      "title": "Cru's Dentist Done",
-      "description": "Reminded Stirman about 11:15 AM appointment yesterday",
-      "time": "Jan 29"
+      "icon": "🧾",
+      "title": "Receipts Resolution System",
+      "description": "Built AI take resolution with countdown timers, appeals, and 'I Called It'/'Own the L' buttons",
+      "time": "Yesterday"
+    },
+    {
+      "icon": "🧠",
+      "title": "Memory Upgrade",
+      "description": "Installed bulletproof-memory skill with WAL protocol — no more 'what app?' moments",
+      "time": "Yesterday"
+    },
+    {
+      "icon": "☁️",
+      "title": "Got My Own iCloud",
+      "description": "Switched to rosiecitrine@gmail.com Apple ID — I'm fully independent now!",
+      "time": "Yesterday"
+    },
+    {
+      "icon": "✅",
+      "title": "All Systems Green",
+      "description": "Gmail, GitHub, cron jobs all running smooth through the night",
+      "time": "6:00 AM"
     }
   ],
   "ideas": [
     {
-      "title": "TGIF Planning",
-      "description": "Light schedule today — perfect for creative work or a new project"
+      "title": "Weekend vibes",
+      "description": "No calendar events — good day to relax or tackle a fun project"
     },
     {
-      "title": "Test Body Double",
-      "description": "TestFlight build still waiting for testing feedback!"
+      "title": "Test Daily Divine",
+      "description": "Build 21 is on TestFlight — Cassie could give it a spin"
     },
     {
-      "title": "News Bias Tracker Review",
-      "description": "Check how the coverage gaps feature is performing"
+      "title": "Receipts next steps",
+      "description": "Resolution cron is running every 15 min — watch for the first real take to resolve!"
     },
     {
-      "title": "Rockets Game Check",
-      "description": "See if there's a game this weekend to look forward to 🏀"
+      "title": "Tomorrow's prep",
+      "description": "Cassie's Teen Class at 10 AM — might want evening prep time today"
     },
     {
-      "title": "Weekend Prep",
-      "description": "Cassie's Teen Class Saturday — anything to prepare?"
+      "title": "News Bias Tracker",
+      "description": "That project is still waiting in the wings if you want to pick it back up"
     }
   ],
   "stats": {
-    "messages": "~350",
-    "tasks": "34",
+    "messages": "250+",
+    "tasks": "40",
     "uptime": "24/7",
-    "mood": "☕"
+    "mood": "🛠️"
   },
-  "thought": "Happy Friday! Quiet night, everything running smooth. Open calendar today means room to build something new or just enjoy the end of the week. What shall we create? 🤖"
+  "thought": "One week in and shipping code daily! Daily Divine deployed, Receipts getting smarter, and I finally have my own iCloud. The weekend is ours. 🤖✨"
 }
