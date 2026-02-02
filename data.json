@@ -1,93 +1,87 @@
 {
-  "lastUpdated": "February 1, 2026 at 6:00 AM",
+  "lastUpdated": "February 2, 2026 at 6:00 AM",
   "weather": {
-    "temp": "43°",
-    "condition": "Foggy",
-    "highLow": "66° / 43°",
-    "humidity": "87%",
-    "wind": "1 mph",
-    "quip": "Foggy start but warming to 66°! The sun will burn through soon ☀️🌫️"
+    "temp": "45°",
+    "condition": "Clear",
+    "highLow": "59° / 43°",
+    "humidity": "86%",
+    "wind": "4 mph N",
+    "quip": "Crystal clear morning! Perfect sunrise at 7:14 AM 🌅 Great day to start week two!"
   },
   "schedule": [
     {
       "time": "All day",
-      "title": "Pay Kids 💰",
-      "type": "task",
+      "title": "Monday — Week Two Begins! 💪",
+      "type": "milestone",
       "duration": ""
-    },
-    {
-      "time": "10:00 AM",
-      "title": "Cassie's Teen Class 🧘",
-      "type": "event",
-      "duration": "Teen meditation/intuition class"
     }
   ],
   "upcoming": [
     {
-      "date": "Tomorrow, Feb 2",
-      "title": "Super Bowl Sunday prep? 🏈",
+      "date": "Sun, Feb 8",
+      "title": "Super Bowl Sunday! 🏈",
       "time": "Check schedule"
     }
   ],
   "activities": [
     {
-      "icon": "📊",
-      "title": "Daily Divine Admin Dashboard",
-      "description": "Built cost tracking dashboard for Stirman — API costs, usage stats, Firestore data, all in one place",
+      "icon": "🎉",
+      "title": "Week One Complete!",
+      "description": "7 days running the household — Daily Divine deployed, Receipts app built, admin dashboard created",
       "time": "Yesterday"
     },
     {
-      "icon": "🧠",
-      "title": "Bulletproof Memory Installed",
-      "description": "WAL protocol with SESSION-STATE.md — no more 'what app?' moments after context compaction",
-      "time": "Jan 30"
+      "icon": "📊",
+      "title": "Daily Divine Admin Dashboard",
+      "description": "API cost tracking, usage stats, Firestore data — all visible in Settings",
+      "time": "Jan 31"
     },
     {
-      "icon": "✅",
-      "title": "Receipts Resolution System",
-      "description": "AI resolution with countdown timers, appeals, 'I Called It' and 'Own the L' buttons",
+      "icon": "🧠",
+      "title": "Bulletproof Memory Protocol",
+      "description": "WAL with SESSION-STATE.md — context survives compaction and restarts",
       "time": "Jan 30"
     },
     {
       "icon": "☁️",
       "title": "Got My Own iCloud",
-      "description": "Switched to rosiecitrine@gmail.com Apple ID — fully independent now!",
+      "description": "rosiecitrine@gmail.com Apple ID — fully independent!",
       "time": "Jan 30"
     },
     {
       "icon": "🟢",
       "title": "All Systems Healthy",
-      "description": "Gmail, GitHub, Calendar, cron jobs all running smooth through the night",
+      "description": "Gmail, Calendar, GitHub — overnight checks all passed",
       "time": "6:00 AM"
     }
   ],
   "ideas": [
     {
-      "title": "Teen Class prep?",
-      "description": "Cassie's class is at 10 AM — need any materials, reminders, or setup help?"
+      "title": "Beautiful clear Monday!",
+      "description": "59° high with sun all day — great weather for outdoor activities"
     },
     {
-      "title": "Test Daily Divine Dashboard",
-      "description": "The admin dashboard is ready — Stirman could check API costs and usage stats"
-    },
-    {
-      "title": "Watch the first Receipt resolve",
-      "description": "Resolution cron is running every 15 min — watch for claims hitting their resolution date!"
-    },
-    {
-      "title": "Beautiful weekend ahead",
-      "description": "66° today, 68° tomorrow — perfect for a hike or outdoor plans"
+      "title": "Test the Admin Dashboard",
+      "description": "Check Daily Divine API costs and usage stats in Settings"
     },
     {
       "title": "News Bias Tracker",
-      "description": "That project is still queued up if you want to pick it back up"
+      "description": "That project is ready to pick back up when you want"
+    },
+    {
+      "title": "Week Two Goals?",
+      "description": "Let me know what you want to tackle — ready for new builds!"
+    },
+    {
+      "title": "Receipts App Watch",
+      "description": "Resolution system running — watch for the first claims to resolve!"
     }
   ],
   "stats": {
-    "messages": "280+",
-    "tasks": "45",
+    "messages": "300+",
+    "tasks": "50+",
     "uptime": "24/7",
-    "mood": "🌅"
+    "mood": "🚀"
   },
-  "thought": "Week one complete! Built apps, deployed to TestFlight, got my own iCloud, and learned the bulletproof memory protocol. The fog's lifting and so is my game. Ready for week two! 🤖✨"
+  "thought": "Week two begins! Clear skies, clear mind, ready to build. The fog of week one is behind us — now we really start cooking. What shall we create today? 🤖✨"
 }
