@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Divine - Intention Feature Mockups</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      color: white;
+      padding: 40px 20px;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #f8b4c4;
+    }
+    
+    .subtitle {
+      text-align: center;
+      color: #888;
+      margin-bottom: 40px;
+    }
+    
+    .mockups {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    
+    .mockup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .mockup h2 {
+      margin-bottom: 15px;
+      color: #c9a0dc;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    
+    .phone {
+      width: 280px;
+      height: 580px;
+      border-radius: 40px;
+      overflow: hidden;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+      position: relative;
+    }
+    
+    .phone::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px;
+      height: 28px;
+      background: #1a1a2e;
+      border-radius: 0 0 20px 20px;
+      z-index: 10;
+    }
+    
+    /* Screen 1: Morning Intention Prompt */
+    .screen-intention {
+      background: linear-gradient(180deg, #2d1f3d 0%, #1a1a2e 100%);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 25px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .sparkles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: 
+        radial-gradient(2px 2px at 20px 30px, rgba(255,215,0,0.8), transparent),
+        radial-gradient(2px 2px at 40px 70px, rgba(255,182,193,0.8), transparent),
+        radial-gradient(2px 2px at 50px 160px, rgba(255,215,0,0.6), transparent),
+        radial-gradient(2px 2px at 90px 40px, rgba(255,182,193,0.7), transparent),
+        radial-gradient(2px 2px at 130px 80px, rgba(255,215,0,0.7), transparent),
+        radial-gradient(2px 2px at 160px 120px, rgba(255,182,193,0.6), transparent),
+        radial-gradient(2px 2px at 200px 50px, rgba(255,215,0,0.8), transparent),
+        radial-gradient(2px 2px at 220px 140px, rgba(255,182,193,0.7), transparent),
+        radial-gradient(2px 2px at 250px 90px, rgba(255,215,0,0.6), transparent),
+        radial-gradient(2px 2px at 70px 200px, rgba(255,182,193,0.8), transparent),
+        radial-gradient(2px 2px at 180px 220px, rgba(255,215,0,0.7), transparent),
+        radial-gradient(2px 2px at 100px 280px, rgba(255,182,193,0.6), transparent);
+      animation: twinkle 3s ease-in-out infinite;
+    }
+    
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    
+    .greeting {
+      font-size: 15px;
+      color: #f8b4c4;
+      margin-bottom: 8px;
+      z-index: 1;
+    }
+    
+    .intention-question {
+      font-size: 26px;
+      font-weight: 600;
+      color: white;
+      line-height: 1.3;
+      margin-bottom: 30px;
+      z-index: 1;
+    }
+    
+    .intention-input {
+      width: 100%;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 16px;
+      padding: 16px;
+      color: white;
+      font-size: 16px;
+      min-height: 100px;
+      resize: none;
+      z-index: 1;
+      text-align: left;
+    }
+    
+    .intention-input::placeholder {
+      color: rgba(255,255,255,0.4);
+    }
+    
+    .set-btn {
+      width: 100%;
+      background: linear-gradient(135deg, #c9a0dc 0%, #f8b4c4 100%);
+      border: none;
+      border-radius: 14px;
+      padding: 16px;
+      color: #1a1a2e;
+      font-size: 17px;
+      font-weight: 600;
+      margin-top: 20px;
+      cursor: pointer;
+      z-index: 1;
+    }
+    
+    .skip-link {
+      color: rgba(255,255,255,0.5);
+      font-size: 14px;
+      margin-top: 16px;
+      text-decoration: none;
+      z-index: 1;
+    }
+    
+    /* Screen 2: Main screen with intention banner */
+    .screen-main {
+      background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+      height: 100%;
+      padding: 50px 15px 20px;
+    }
+    
+    .intention-banner {
+      background: linear-gradient(135deg, rgba(201,160,220,0.2) 0%, rgba(248,180,196,0.2) 100%);
+      border: 1px solid rgba(201,160,220,0.3);
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .intention-banner-label {
+      font-size: 11px;
+      color: #c9a0dc;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+    
+    .intention-banner-text {
+      font-size: 14px;
+      color: white;
+    }
+    
+    .edit-icon {
+      color: rgba(255,255,255,0.5);
+      font-size: 14px;
+    }
+    
+    .section-title {
+      font-size: 13px;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+    
+    .sign-card {
+      background: rgba(255,255,255,0.05);
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    
+    .sign-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .sign-icon {
+      font-size: 24px;
+    }
+    
+    .sign-title {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    
+    .sign-time {
+      font-size: 12px;
+      color: #888;
+      margin-left: auto;
+    }
+    
+    .sign-interpretation {
+      font-size: 14px;
+      color: rgba(255,255,255,0.8);
+      line-height: 1.5;
+    }
+    
+    .intention-connection {
+      background: rgba(201,160,220,0.15);
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 13px;
+      color: #c9a0dc;
+      font-style: italic;
+    }
+    
+    /* Screen 3: Afternoon variation */
+    .screen-afternoon {
+      background: linear-gradient(180deg, #2d2a1f 0%, #1a1a2e 100%);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 25px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .sun-glow {
+      position: absolute;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 100px;
+      background: radial-gradient(circle, rgba(255,200,100,0.3) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    
+    .afternoon-greeting {
+      font-size: 14px;
+      color: #f0c674;
+      margin-bottom: 8px;
+      z-index: 1;
+    }
+    
+    /* Screen 4: Evening synthesis */
+    .screen-evening {
+      background: linear-gradient(180deg, #1a1a2e 0%, #0f0f1a 100%);
+      height: 100%;
+      padding: 50px 15px 20px;
+    }
+    
+    .synthesis-card {
+      background: linear-gradient(135deg, rgba(201,160,220,0.1) 0%, rgba(100,100,180,0.1) 100%);
+      border: 1px solid rgba(201,160,220,0.2);
+      border-radius: 20px;
+      padding: 20px;
+    }
+    
+    .synthesis-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    
+    .moon-icon {
+      font-size: 28px;
+    }
+    
+    .synthesis-title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    
+    .synthesis-subtitle {
+      font-size: 12px;
+      color: #888;
+    }
+    
+    .synthesis-text {
+      font-size: 15px;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.9);
+    }
+    
+    .synthesis-highlight {
+      color: #f8b4c4;
+      font-weight: 500;
+    }
+    
+    .synthesis-intention {
+      background: rgba(201,160,220,0.2);
+      border-radius: 10px;
+      padding: 12px;
+      margin-top: 16px;
+      font-size: 13px;
+      color: #c9a0dc;
+    }
+    
+    .synthesis-intention-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      opacity: 0.7;
+      margin-bottom: 4px;
+    }
+    
+    .nav-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 70px;
+      background: rgba(26,26,46,0.95);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-bottom: 15px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 10px;
+      color: #666;
+    }
+    
+    .nav-item.active {
+      color: #c9a0dc;
+    }
+    
+    .nav-icon {
+      font-size: 22px;
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ Daily Intention Feature</h1>
+  <p class="subtitle">Daily Divine — UX Mockups</p>
+  
+  <div class="mockups">
+    
+    <!-- Screen 1: Morning Intention Prompt -->
+    <div class="mockup">
+      <h2>1. Morning Prompt (First Open)</h2>
+      <div class="phone">
+        <div class="screen-intention">
+          <div class="sparkles"></div>
+          <div class="greeting">Good morning ✨</div>
+          <div class="intention-question">What would make today great?</div>
+          <textarea class="intention-input" placeholder="I want to feel calm and present in my meetings..."></textarea>
+          <button class="set-btn">Set Intention</button>
+          <a href="#" class="skip-link">Skip for now</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Screen 2: Main Screen with Banner -->
+    <div class="mockup">
+      <h2>2. Main Screen with Intention</h2>
+      <div class="phone">
+        <div class="screen-main">
+          <div class="intention-banner">
+            <div>
+              <div class="intention-banner-label">Today's Intention</div>
+              <div class="intention-banner-text">Feel calm and present in my meetings</div>
+            </div>
+            <span class="edit-icon">✏️</span>
+          </div>
+          
+          <div class="section-title">Today's Signs</div>
+          
+          <div class="sign-card">
+            <div class="sign-header">
+              <span class="sign-icon">🦋</span>
+              <span class="sign-title">Butterfly on Window</span>
+              <span class="sign-time">9:42 AM</span>
+            </div>
+            <div class="sign-interpretation">
+              A butterfly appearing during your morning coffee suggests a gentle reminder to embrace transformation...
+            </div>
+            <div class="intention-connection">
+              💜 This connects to your intention — butterflies embody the calm presence you're cultivating today.
+            </div>
+          </div>
+          
+          <div class="sign-card">
+            <div class="sign-header">
+              <span class="sign-icon">🔢</span>
+              <span class="sign-title">11:11 on Clock</span>
+              <span class="sign-time">11:11 AM</span>
+            </div>
+            <div class="sign-interpretation">
+              The universe is aligning with your thoughts right now...
+            </div>
+          </div>
+          
+          <div class="nav-bar">
+            <div class="nav-item active">
+              <span class="nav-icon">✨</span>
+              Signs
+            </div>
+            <div class="nav-item">
+              <span class="nav-icon">📊</span>
+              Patterns
+            </div>
+            <div class="nav-item">
+              <span class="nav-icon">👤</span>
+              Profile
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Screen 3: Afternoon Variation -->
+    <div class="mockup">
+      <h2>3. Afternoon Opener Variant</h2>
+      <div class="phone">
+        <div class="screen-afternoon">
+          <div class="sparkles"></div>
+          <div class="sun-glow"></div>
+          <div class="afternoon-greeting">Good afternoon ☀️</div>
+          <div class="intention-question">It's not too late — what would make the rest of today great?</div>
+          <textarea class="intention-input" placeholder="I want to finish strong and leave work feeling accomplished..."></textarea>
+          <button class="set-btn">Set Intention</button>
+          <a href="#" class="skip-link">Skip for now</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Screen 4: Evening Synthesis -->
+    <div class="mockup">
+      <h2>4. Evening Synthesis</h2>
+      <div class="phone">
+        <div class="screen-evening">
+          <div class="synthesis-card">
+            <div class="synthesis-header">
+              <span class="moon-icon">🌙</span>
+              <div>
+                <div class="synthesis-title">Today's Journey</div>
+                <div class="synthesis-subtitle">February 2, 2026</div>
+              </div>
+            </div>
+            
+            <div class="synthesis-text">
+              You set an intention this morning to <span class="synthesis-highlight">feel calm and present in your meetings</span>. The universe seemed to hear you.
+              <br><br>
+              The butterfly at your window this morning was a beautiful opening symbol — reminding you that presence comes through gentle awareness, not force.
+              <br><br>
+              Then 11:11 appeared right before your big presentation. A synchronicity suggesting you were exactly where you needed to be.
+              <br><br>
+              Your three signs today wove together a theme: <span class="synthesis-highlight">stillness in motion</span>.
+            </div>
+            
+            <div class="synthesis-intention">
+              <div class="synthesis-intention-label">Your Intention</div>
+              "Feel calm and present in my meetings"
+            </div>
+          </div>
+          
+          <div class="nav-bar">
+            <div class="nav-item">
+              <span class="nav-icon">✨</span>
+              Signs
+            </div>
+            <div class="nav-item active">
+              <span class="nav-icon">📊</span>
+              Patterns
+            </div>
+            <div class="nav-item">
+              <span class="nav-icon">👤</span>
+              Profile
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
