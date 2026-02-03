@@ -600,6 +600,64 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.95rem;
 }
 
+/* Recurring Tasks Card */
+.tasks-card {
+    grid-column: span 1;
+}
+
+.tasks-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.task-item {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-sm);
+    padding: var(--space-md);
+    border-left: 3px solid var(--rosie-teal);
+    transition: background 0.2s ease;
+}
+
+.task-item:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.task-item.paused {
+    border-left-color: var(--text-muted);
+    opacity: 0.6;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-xs);
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+}
+
+.task-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text-primary);
+}
+
+.task-schedule {
+    font-size: 0.8rem;
+    color: var(--rosie-teal);
+    background: rgba(78, 205, 196, 0.15);
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+    white-space: nowrap;
+}
+
+.task-description {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
 /* Footer */
 .footer {
     text-align: center;

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "February 3, 2026 at 6:00 AM",
+  "lastUpdated": "February 3, 2026 at 12:55 PM",
   "weather": {
     "temp": "48°",
     "condition": "Partly Cloudy",
@@ -79,5 +79,43 @@
     "uptime": "24/7",
     "mood": "🔟"
   },
-  "thought": "Day 10! We've gone from zero to a full household assistant in under two weeks. Daily Divine is live, Receipts is running, admin dashboards are built. The foundation is solid — now we can build anything. What's the next adventure? 🤖✨"
+  "thought": "Day 10! We've gone from zero to a full household assistant in under two weeks. Daily Divine is live, Receipts is running, admin dashboards are built. The foundation is solid — now we can build anything. What's the next adventure? 🤖✨",
+  "recurringTasks": [
+    {
+      "name": "Email Check",
+      "schedule": "Every 15 minutes",
+      "description": "Check rosiecitrine@gmail.com for new messages and forwarded instructions",
+      "status": "active"
+    },
+    {
+      "name": "Receipts Resolution",
+      "schedule": "Every 15 minutes",
+      "description": "Check for prediction claims ready to resolve",
+      "status": "active"
+    },
+    {
+      "name": "Dashboard Update",
+      "schedule": "Daily at 6:00 AM",
+      "description": "Refresh this dashboard with weather, activities, and ideas",
+      "status": "active"
+    },
+    {
+      "name": "Moltbot Update Check",
+      "schedule": "Daily at 9:00 AM",
+      "description": "Check if moltbot has a stable release available",
+      "status": "active"
+    },
+    {
+      "name": "Weekly Skill Check",
+      "schedule": "Mondays at 9:00 AM",
+      "description": "Check ClawdHub for new or updated skills",
+      "status": "active"
+    },
+    {
+      "name": "Heartbeat",
+      "schedule": "Every ~30 minutes",
+      "description": "Gateway health check — runs HEARTBEAT.md tasks",
+      "status": "active"
+    }
+  ]
 }

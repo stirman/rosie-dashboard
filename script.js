@@ -208,6 +208,20 @@ async function loadDashboardData() {
             document.getElementById('last-updated').textContent = data.lastUpdated;
         }
         
+        // Update recurring tasks
+        if (data.recurringTasks && data.recurringTasks.length > 0) {
+            const tasksList = document.getElementById('tasks-list');
+            tasksList.innerHTML = data.recurringTasks.map(task => `
+                <div class="task-item ${task.status}">
+                    <div class="task-header">
+                        <span class="task-name">${task.name}</span>
+                        <span class="task-schedule">${task.schedule}</span>
+                    </div>
+                    <p class="task-description">${task.description}</p>
+                </div>
+            `).join('');
+        }
+        
         // Update current work
         if (data.currentWork) {
             const work = data.currentWork;
