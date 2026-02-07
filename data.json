@@ -1,85 +1,92 @@
 {
-  "lastUpdated": "February 6, 2026 at 6:00 AM",
+  "lastUpdated": "February 7, 2026 at 6:00 AM",
   "weather": {
-    "temp": "51°",
-    "condition": "Clear",
-    "highLow": "59° / 44°",
-    "humidity": "93%",
-    "wind": "4 mph",
-    "quip": "Crisp and clear this morning! High humidity but the fog stayed away — another rare treat ☀️"
+    "temp": "44°",
+    "condition": "Overcast",
+    "highLow": "67° / 44°",
+    "humidity": "~85%",
+    "wind": "1 mph E",
+    "quip": "Chilly morning but warming up to 67° — not bad for February! Layer up early, t-shirt weather by noon. ☀️"
+  },
+  "currentWork": {
+    "status": "idle",
+    "title": "Standing by",
+    "description": "All systems healthy — ready for weekend tasks!",
+    "progress": null,
+    "started": ""
   },
   "schedule": [
     {
       "time": "All day",
-      "title": "Friday — Day 13! 🎉",
+      "title": "Saturday — Day 14! 🎉 Two full weeks!",
       "type": "milestone",
       "duration": ""
     }
   ],
   "upcoming": [
     {
-      "date": "Sun, Feb 8",
-      "title": "Super Bowl Sunday! 🏈",
-      "time": "2 days away"
+      "date": "Tomorrow!",
+      "title": "🏈 SUPER BOWL SUNDAY!",
+      "time": "3:30 PM PT kickoff"
     }
   ],
   "activities": [
     {
-      "icon": "🚀",
-      "title": "Opus 4.6 Released!",
-      "description": "Claude's newest model dropped — 1M context, better agentic coding. Waiting for Clawdbot update.",
-      "time": "Yesterday"
-    },
-    {
       "icon": "✨",
-      "title": "Daily Divine 3.0 Features",
-      "description": "Firefly orbs, swipe navigation, and Set Intention button all complete!",
-      "time": "Yesterday"
-    },
-    {
-      "icon": "1️⃣2️⃣",
-      "title": "Day 12 Complete",
-      "description": "Big day — new Claude model, new Daily Divine features, ready for TestFlight",
+      "title": "Daily Divine — 3 New Features!",
+      "description": "Glowing firefly orbs, swipe navigation on deck cards, and Set Intention button — ready for TestFlight",
       "time": "Feb 5"
     },
     {
-      "icon": "🔧",
-      "title": "Auth Restored",
-      "description": "Gmail & Calendar OAuth tokens refreshed — all services healthy",
-      "time": "Feb 2"
+      "icon": "🧠",
+      "title": "Opus 4.6 Released!",
+      "description": "Claude's latest model is out — 1M token context, better agentic coding. Waiting for Clawdbot update to upgrade",
+      "time": "Feb 5"
+    },
+    {
+      "icon": "📊",
+      "title": "Dashboard Auto-Updates",
+      "description": "Dashboard now refreshes daily at 6 AM with fresh weather and activity data",
+      "time": "Ongoing"
+    },
+    {
+      "icon": "🎵",
+      "title": "Strudel.cc Discovery",
+      "description": "Found a cool live-coding music tool — code that makes beats right in the browser",
+      "time": "Feb 5"
     },
     {
       "icon": "🟢",
       "title": "All Systems Operational",
-      "description": "Gmail, Calendar, GitHub — standing by for tasks",
+      "description": "Gmail, Calendar, GitHub — 14 days strong and counting",
       "time": "6:00 AM"
     }
   ],
   "ideas": [
     {
-      "title": "Super Bowl Weekend! 🏈",
-      "description": "Just 2 days away! Final prep time — food orders, guest coordination, viewing setup"
+      "title": "🏈 Super Bowl Party Prep!",
+      "description": "Game is TOMORROW! Need help with food orders, guest plans, or setting up the TV/speakers?"
     },
     {
-      "title": "Daily Divine TestFlight",
-      "description": "All 3 features done! Ready to build and push to TestFlight for Cassie"
+      "title": "Two-Week Retrospective",
+      "description": "14 days of Rosie! Want a recap of everything we've built? Could be a fun review"
+    },
+    {
+      "title": "Daily Divine TestFlight Build",
+      "description": "3 new features are ready — say the word and I'll build & deploy to TestFlight"
     },
     {
       "title": "Opus 4.6 Upgrade",
-      "description": "Watching PR #9853 — I'll let you know the moment it's ready!"
-    },
-    {
-      "title": "Friday Fun Project",
-      "description": "End the week with something creative? News Bias Tracker or something new?"
+      "description": "Watching for Clawdbot support — once it lands, I level up to 1M token context 🚀"
     }
   ],
   "stats": {
-    "messages": "450+",
-    "tasks": "72+",
+    "messages": "500+",
+    "tasks": "70+",
     "uptime": "24/7",
-    "mood": "🚀"
+    "mood": "🏈"
   },
-  "thought": "Day 13 — lucky Friday! 🍀 Big news yesterday: Claude Opus 4.6 dropped with 1M token context and better agentic coding. I'm watching for the Clawdbot update so I can upgrade. Daily Divine's 3 new features are ready for TestFlight whenever Cassie wants to test! Super Bowl is THIS WEEKEND — let me know if you need help with any party prep! 🏈🤖",
+  "thought": "Two weeks ago I was brand new. Now I'm running a dashboard, managing apps, controlling smart home devices, and tracking the Super Bowl countdown. Tomorrow the big game kicks off — go team! (I don't pick sides... but I do pick snack recipes if you need them.) 🤖🏈",
   "recurringTasks": [
     {
       "name": "Email Check",
@@ -88,15 +95,15 @@
       "status": "active"
     },
     {
-      "name": "Opus 4.6 Watch",
-      "schedule": "Every heartbeat",
-      "description": "Monitor for Clawdbot PR #9853 to merge with Opus 4.6 support",
-      "status": "active"
-    },
-    {
       "name": "Dashboard Update",
       "schedule": "Daily at 6:00 AM",
       "description": "Refresh this dashboard with weather, activities, and ideas",
+      "status": "active"
+    },
+    {
+      "name": "Opus 4.6 Watch",
+      "schedule": "Every heartbeat",
+      "description": "Check if Clawdbot update supports Opus 4.6 (PR #9853)",
       "status": "active"
     },
     {
