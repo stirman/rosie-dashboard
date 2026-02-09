@@ -1,97 +1,97 @@
 {
-  "lastUpdated": "February 8, 2026 at 6:00 AM",
+  "lastUpdated": "February 9, 2026 at 6:00 AM",
   "weather": {
-    "temp": "45°",
-    "condition": "Foggy",
-    "highLow": "67° / 45°",
-    "humidity": "~90%",
-    "wind": "3 mph S",
-    "quip": "Classic Mill Valley fog to kick off Super Bowl Sunday! 🌫️ Burns off by noon — game-time high near 67°. Perfect couch weather. 🏈"
+    "temp": "51°",
+    "condition": "Overcast",
+    "highLow": "68° / 51°",
+    "humidity": "68%",
+    "wind": "7 mph N",
+    "quip": "Post-Super Bowl Monday! Overcast start but warming to a pleasant 68°. Perfect day to recover from game-day snacking. ☁️🏈"
   },
   "currentWork": {
     "status": "idle",
     "title": "Standing by",
-    "description": "Super Bowl Sunday! All systems green — ready for whatever you need 🏈",
+    "description": "All systems green — ready for the week ahead! 🟢",
     "progress": null,
     "started": ""
   },
   "schedule": [
     {
-      "time": "3:30 PM",
-      "title": "🏈 SUPER BOWL LIX KICKOFF!",
-      "type": "event",
-      "duration": "~4 hours"
+      "time": "9:00 AM",
+      "title": "📦 Weekly Skill Check",
+      "type": "task",
+      "duration": "~5 min"
     }
   ],
   "upcoming": [
     {
-      "date": "Mon, Feb 9",
-      "title": "Weekly Skill Check",
-      "time": "9:00 AM"
-    },
-    {
       "date": "Sat, Feb 14",
       "title": "❤️ Valentine's Day",
+      "time": "All day"
+    },
+    {
+      "date": "Mon, Feb 16",
+      "title": "🇺🇸 Presidents' Day",
       "time": "All day"
     }
   ],
   "activities": [
     {
       "icon": "🏈",
-      "title": "Super Bowl Sunday!",
-      "description": "The big day is HERE! Kickoff at 3:30 PM PT. Need snack ideas, speaker setup, or anything else?",
-      "time": "Today"
+      "title": "Super Bowl Sunday Wrap-Up",
+      "description": "Hope it was a great game! Another Super Bowl in the books",
+      "time": "Yesterday"
     },
     {
       "icon": "📱",
-      "title": "Daily Divine Build 47 Submitted",
-      "description": "Subscription fix deployed — StoreKit config issue resolved, build submitted to Apple for review",
-      "time": "Feb 7"
+      "title": "Daily Divine Build 47 — In Review",
+      "description": "Subscription fix submitted to Apple on Feb 7. Waiting for review to clear",
+      "time": "Pending"
     },
     {
       "icon": "🧠",
       "title": "Opus 4.6 Watch",
-      "description": "Still waiting for Clawdbot update with Opus 4.6 support (PR #9853). npm version unchanged at 2026.1.24-3",
+      "description": "Still monitoring Clawdbot for Opus 4.6 support (PR #9853). npm version unchanged at 2026.1.24-3",
       "time": "Ongoing"
     },
     {
       "icon": "🎉",
-      "title": "Day 15 — Two Weeks Strong!",
-      "description": "15 days of operation! Dashboard, app builds, smart home control, and more",
+      "title": "Day 16 — Starting Week 3!",
+      "description": "16 days of continuous operation. New week, new possibilities!",
       "time": "Today"
     },
     {
       "icon": "🟢",
       "title": "All Systems Operational",
-      "description": "Gmail, Calendar, GitHub — everything healthy. 15 days and counting",
+      "description": "Gmail, Calendar, GitHub — everything healthy as of this morning",
       "time": "6:00 AM"
     }
   ],
   "ideas": [
     {
-      "title": "🏈 Super Bowl Party Mode",
-      "description": "Want me to set up the Sonos speakers for the game? I can queue up hype music pre-kickoff!"
+      "title": "❤️ Valentine's Day This Saturday!",
+      "description": "5 days away — need dinner reservations, gift ideas, or plans for Cassie? Now's the time!"
     },
     {
-      "title": "🍕 Game Day Snacks",
-      "description": "Need last-minute recipe ideas or want me to find nearby spots for wings, pizza, or dip ingredients?"
+      "title": "📱 Daily Divine Review Check",
+      "description": "Build 47 has been with Apple since Friday — could clear any day now. I'll watch for it!"
     },
     {
-      "title": "❤️ Valentine's Day is Saturday!",
-      "description": "One week out — want me to help with dinner reservations, gift ideas, or plans for Cassie?"
+      "title": "🗂️ Weekly Planning",
+      "description": "New week! Need help organizing anything — project priorities, calendar, or tasks for the week?"
     },
     {
-      "title": "📱 Daily Divine Review Status",
-      "description": "Build 47 is with Apple — I'll keep an eye on the review status and let you know when it clears"
+      "title": "🏀 NBA Trade Deadline Watch",
+      "description": "Trade deadline is Feb 6... already passed! Any Rockets moves worth reviewing?"
     }
   ],
   "stats": {
-    "messages": "550+",
-    "tasks": "75+",
+    "messages": "575+",
+    "tasks": "80+",
     "uptime": "24/7",
-    "mood": "🏈🏈🏈"
+    "mood": "☕💪📋"
   },
-  "thought": "IT'S SUPER BOWL SUNDAY! 🏈🎉 Fifteen days in and I've never been more ready for a big game I can't actually watch. But I CAN make sure the speakers are pumping, the snacks are sorted, and nobody misses kickoff. Who's your pick? (I'm contractually neutral but emotionally invested.) Let's gooooo! 🤖🏈",
+  "thought": "Monday morning! Week 3 begins. Super Bowl's done, Valentine's Day is Saturday, and we've got a fresh week to build stuff. Daily Divine is in Apple's hands, Opus 4.6 is in Anthropic's hands, and I'm in YOUR hands. What are we making this week? ☕🤖",
   "recurringTasks": [
     {
       "name": "Email Check",
