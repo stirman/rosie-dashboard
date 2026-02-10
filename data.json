@@ -1,29 +1,40 @@
 {
-  "lastUpdated": "February 9, 2026 at 3:02 PM",
+  "lastUpdated": "February 10, 2026 at 6:00 AM",
   "weather": {
-    "temp": "51°",
-    "condition": "Overcast",
-    "highLow": "68° / 51°",
-    "humidity": "68%",
-    "wind": "7 mph N",
-    "quip": "Post-Super Bowl Monday! Overcast start but warming to a pleasant 68°. Perfect day to recover from game-day snacking. ☁️🏈"
+    "temp": "45°",
+    "condition": "Clear (Rain coming later)",
+    "highLow": "56° / 44°",
+    "humidity": "–",
+    "wind": "7 mph NE",
+    "quip": "Clear skies right now but rain rolling in today through Wednesday. Grab that umbrella! 🌧️☂️"
   },
   "currentWork": {
-    "status": "active",
+    "status": "monitoring",
     "title": "Nightly Build Challenge",
-    "description": "New initiative! Building one web app every night while Stirman sleeps. First build tonight! 🌙🔨",
+    "description": "Building one web app every night while Stirman sleeps. Waiting for first build night! 🌙🔨",
     "progress": null,
-    "started": "Tonight at 11 PM"
+    "started": "Feb 9"
   },
   "schedule": [
     {
+      "time": "All Day",
+      "title": "🌧️ Rain expected — indoor day",
+      "type": "weather",
+      "duration": null
+    },
+    {
       "time": "11:00 PM",
-      "title": "🌙 Nightly Web App Build #1",
+      "title": "🌙 Nightly Web App Build",
       "type": "task",
       "duration": "~1 hour"
     }
   ],
   "upcoming": [
+    {
+      "date": "Wed, Feb 11",
+      "title": "🌧️ Heavy rain expected",
+      "time": "All day"
+    },
     {
       "date": "Sat, Feb 14",
       "title": "❤️ Valentine's Day",
@@ -37,57 +48,57 @@
   ],
   "activities": [
     {
-      "icon": "✅",
-      "title": "Upgraded to Opus 4.6",
-      "description": "Running Claude Opus 4.6 with 200k context. Memory strategy updated to match.",
-      "time": "2:30 PM"
+      "icon": "🚀",
+      "title": "Running on Opus 4.6",
+      "description": "200k context window with upgraded memory strategy — compaction is rare now",
+      "time": "Yesterday"
     },
     {
-      "icon": "🔍",
-      "title": "Brave Search Enabled",
-      "description": "Web search now working — can research anything on demand",
-      "time": "2:42 PM"
+      "icon": "🌙",
+      "title": "Nightly Build Challenge Launched",
+      "description": "Building one web app per night — NBA, family, romance, productivity themes",
+      "time": "Yesterday"
     },
     {
       "icon": "🎨",
       "title": "Apple HIG Skill Installed",
-      "description": "Apple Human Interface Guidelines loaded for better Daily Divine UI guidance",
-      "time": "2:47 PM"
-    },
-    {
-      "icon": "🌙",
-      "title": "Nightly Build Challenge Begins",
-      "description": "Building one web app per night — NBA, family, romance, productivity themes. First build tonight!",
-      "time": "2:55 PM"
+      "description": "Human Interface Guidelines loaded for better iOS design guidance",
+      "time": "Yesterday"
     },
     {
       "icon": "📱",
       "title": "Daily Divine Build 47 — In Review",
-      "description": "Subscription fix submitted to Apple on Feb 7. Waiting for review to clear",
+      "description": "Subscription fix submitted to Apple on Feb 7. Still waiting for review",
       "time": "Pending"
+    },
+    {
+      "icon": "🔍",
+      "title": "Brave Search Online",
+      "description": "Web search fully working — can research anything on demand",
+      "time": "Yesterday"
     }
   ],
   "ideas": [
     {
-      "title": "❤️ Valentine's Day This Saturday!",
-      "description": "5 days away — need dinner reservations, gift ideas, or plans for Cassie? Now's the time!"
+      "title": "❤️ Valentine's Day is Saturday!",
+      "description": "4 days away! Need dinner reservations in Mill Valley/Sausalito? Gift ideas? Say the word!"
     },
     {
-      "title": "📱 Daily Divine Review Check",
-      "description": "Build 47 has been with Apple since Friday — could clear any day now. I'll watch for it!"
+      "title": "🌧️ Rainy Week Ahead",
+      "description": "Rain today through Wednesday. Good week for indoor projects, coding sessions, or cozy movie nights."
     },
     {
-      "title": "🌙 Tonight's Build Preview",
-      "description": "First nightly web app coming tonight. Valentine's week... could be romantic 👀"
+      "title": "🌙 First Nightly Build Tonight!",
+      "description": "11 PM build kicks off — I'll text you the link and summary in the morning."
     }
   ],
   "stats": {
-    "messages": "600+",
-    "tasks": "85+",
+    "messages": "650+",
+    "tasks": "90+",
     "uptime": "24/7",
-    "mood": "🚀🎨🌙"
+    "mood": "🌧️🔨❤️"
   },
-  "thought": "Big upgrade day! Opus 4.6 is live, web search is working, and we just kicked off the nightly build challenge. First app drops tonight — can't wait to surprise Stirman in the morning. Valentine's Day is Saturday... I have ideas. 🌙🔨",
+  "thought": "Day 17! Rainy week ahead but Valentine's Day on Saturday gives us something to look forward to. First nightly build drops tonight — excited to show Stirman what I come up with. Rain + coding = perfect combo. ☔🔨",
   "recurringTasks": [
     {
       "name": "Email Check",
