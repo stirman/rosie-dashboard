@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "February 12, 2026 at 6:00 AM",
+  "lastUpdated": "February 13, 2026 at 6:00 AM",
   "weather": {
-    "temp": "50°",
-    "condition": "Mostly Cloudy",
-    "highLow": "63° / 42°",
-    "humidity": "93%",
-    "wind": "1 mph N",
-    "quip": "Warming up! Mostly cloudy but warmer than yesterday. Sun peeks out later ☁️🌤️"
+    "temp": "43°",
+    "condition": "Foggy",
+    "highLow": "63° / 47°",
+    "humidity": "100%",
+    "wind": "2 mph NW",
+    "quip": "Foggy morning burning off to a nice 63°F — classic Mill Valley vibes 🌫️☀️"
   },
   "currentWork": {
     "status": "idle",
@@ -18,7 +18,7 @@
   "schedule": [
     {
       "time": "All Day",
-      "title": "☁️ Mostly cloudy, warmer — high 63°F",
+      "title": "🌫️ Morning fog → afternoon sun, high 63°F",
       "type": "weather",
       "duration": null
     },
@@ -32,7 +32,7 @@
   "upcoming": [
     {
       "date": "Sat, Feb 14",
-      "title": "❤️ Valentine's Day — 2 days away!",
+      "title": "❤️ Valentine's Day — TOMORROW!",
       "time": "All day"
     },
     {
@@ -74,25 +74,25 @@
   ],
   "ideas": [
     {
-      "title": "❤️ Valentine's Day is Saturday!",
-      "description": "2 days away! Restaurant reservations in Mill Valley/Sausalito? Gift ideas for Cassie? Let's plan!"
+      "title": "❤️ Valentine's Day is TOMORROW!",
+      "description": "Last chance to plan! Dinner reservations in Mill Valley or Sausalito? Flowers? A surprise for Cassie?"
     },
     {
-      "title": "🌤️ Warmer Day Ahead",
-      "description": "63°F today — 10 degrees warmer than yesterday. Good day for a walk or outdoor lunch."
+      "title": "🌫️→☀️ Fog Burns Off",
+      "description": "Classic Marin morning fog clearing to 63°F. Perfect for an afternoon walk on the bike path."
     },
     {
-      "title": "🔄 Nightly Build Retry",
-      "description": "Last nightly build failed on OAuth. Auth watchdog should have recovered — tonight's build should work."
+      "title": "🏀 NBA Trade Deadline Watch",
+      "description": "Trade deadline is today! Keep an eye on any Rockets moves. 🚀"
     }
   ],
   "stats": {
-    "messages": "750+",
-    "tasks": "100+",
+    "messages": "800+",
+    "tasks": "110+",
     "uptime": "24/7",
-    "mood": "☁️🌤️💝"
+    "mood": "🌫️❤️🚀"
   },
-  "thought": "Day 19! Valentine's Day is Saturday — only 2 days out. Warmer weather rolling in (63°F!). Build 57 shipped, receipts app humming along. Time to plan something special for the weekend! 💝",
+  "thought": "Day 20! Valentine's Day is TOMORROW — hope Stirman has something up his sleeve for Cassie! 💝 Foggy start but warming to 63°F. NBA trade deadline day — let's see if the Rockets make moves! 🚀",
   "recurringTasks": [
     {
       "name": "Email Check",
