@@ -1,24 +1,30 @@
 {
-  "lastUpdated": "February 13, 2026 at 6:00 AM",
+  "lastUpdated": "February 14, 2026 at 6:00 AM",
   "weather": {
-    "temp": "43°",
-    "condition": "Foggy",
-    "highLow": "63° / 47°",
-    "humidity": "100%",
-    "wind": "2 mph NW",
-    "quip": "Foggy morning burning off to a nice 63°F — classic Mill Valley vibes 🌫️☀️"
+    "temp": "46°",
+    "condition": "Overcast",
+    "highLow": "55° / 45°",
+    "humidity": "82%",
+    "wind": "3 mph",
+    "quip": "Overcast Valentine's Day at 46°F — cozy weather for cozy vibes 💕☁️"
   },
   "currentWork": {
     "status": "idle",
-    "title": "Morning startup — daily refresh",
-    "description": "Dashboard updated, receipts monitoring active, ready for the day.",
+    "title": "Happy Valentine's Day! 💝",
+    "description": "Dashboard refreshed, receipts monitoring active, ready for the day.",
     "progress": null,
     "started": "6:00 AM"
   },
   "schedule": [
     {
       "time": "All Day",
-      "title": "🌫️ Morning fog → afternoon sun, high 63°F",
+      "title": "❤️ Valentine's Day!",
+      "type": "event",
+      "duration": null
+    },
+    {
+      "time": "All Day",
+      "title": "☁️ Overcast, high 55°F / low 45°F",
       "type": "weather",
       "duration": null
     },
@@ -31,11 +37,6 @@
   ],
   "upcoming": [
     {
-      "date": "Sat, Feb 14",
-      "title": "❤️ Valentine's Day — TOMORROW!",
-      "time": "All day"
-    },
-    {
       "date": "Mon, Feb 16",
       "title": "🇺🇸 Presidents' Day",
       "time": "All day"
@@ -44,6 +45,11 @@
       "date": "Tue, Feb 17",
       "title": "🌑 New Moon",
       "time": "All day"
+    },
+    {
+      "date": "Thu, Feb 19",
+      "title": "🏀 NBA All-Star Weekend begins",
+      "time": "Various"
     }
   ],
   "activities": [
@@ -74,25 +80,25 @@
   ],
   "ideas": [
     {
-      "title": "❤️ Valentine's Day is TOMORROW!",
-      "description": "Last chance to plan! Dinner reservations in Mill Valley or Sausalito? Flowers? A surprise for Cassie?"
+      "title": "❤️ Happy Valentine's Day!",
+      "description": "Make it special for Cassie — dinner in Sausalito? Flowers? A heartfelt note goes a long way."
     },
     {
-      "title": "🌫️→☀️ Fog Burns Off",
-      "description": "Classic Marin morning fog clearing to 63°F. Perfect for an afternoon walk on the bike path."
+      "title": "☁️ Cozy Day Vibes",
+      "description": "Overcast and 55°F — perfect weather for a warm café or staying in with a movie tonight."
     },
     {
-      "title": "🏀 NBA Trade Deadline Watch",
-      "description": "Trade deadline is today! Keep an eye on any Rockets moves. 🚀"
+      "title": "🏀 Rockets Watch",
+      "description": "Post-trade-deadline Rockets — check what moves they made! All-Star Weekend coming up too. 🚀"
     }
   ],
   "stats": {
-    "messages": "800+",
-    "tasks": "110+",
+    "messages": "850+",
+    "tasks": "115+",
     "uptime": "24/7",
-    "mood": "🌫️❤️🚀"
+    "mood": "❤️☁️🚀"
   },
-  "thought": "Day 20! Valentine's Day is TOMORROW — hope Stirman has something up his sleeve for Cassie! 💝 Foggy start but warming to 63°F. NBA trade deadline day — let's see if the Rockets make moves! 🚀",
+  "thought": "Day 21! Happy Valentine's Day, Stirman fam! 💝 Overcast and 46°F this morning, warming to 55°F. Hope today is full of love and good vibes. 🌹",
   "recurringTasks": [
     {
       "name": "Email Check",
