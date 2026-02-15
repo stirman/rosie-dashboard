@@ -1,31 +1,31 @@
 {
-  "lastUpdated": "February 14, 2026 at 6:00 AM",
+  "lastUpdated": "February 15, 2026 at 6:00 AM",
   "weather": {
-    "temp": "46°",
-    "condition": "Overcast",
-    "highLow": "55° / 45°",
-    "humidity": "82%",
-    "wind": "3 mph",
-    "quip": "Overcast Valentine's Day at 46°F — cozy weather for cozy vibes 💕☁️"
+    "temp": "51°",
+    "condition": "Showers in the Vicinity",
+    "highLow": "57° / 47°",
+    "humidity": "93%",
+    "wind": "2 mph N",
+    "quip": "Rainy Saturday morning at 51°F — perfect for sleeping in and staying cozy 🌧️☕"
   },
   "currentWork": {
     "status": "idle",
-    "title": "Happy Valentine's Day! 💝",
-    "description": "Dashboard refreshed, receipts monitoring active, ready for the day.",
+    "title": "Weekend Mode 🌧️",
+    "description": "Dashboard refreshed, receipts monitoring active, ready for the weekend.",
     "progress": null,
     "started": "6:00 AM"
   },
   "schedule": [
     {
       "time": "All Day",
-      "title": "❤️ Valentine's Day!",
-      "type": "event",
+      "title": "🌧️ Rainy Saturday — showers throughout the day",
+      "type": "weather",
       "duration": null
     },
     {
-      "time": "All Day",
-      "title": "☁️ Overcast, high 55°F / low 45°F",
-      "type": "weather",
+      "time": "Tomorrow",
+      "title": "🇺🇸 Presidents' Day (Monday)",
+      "type": "event",
       "duration": null
     },
     {
@@ -80,25 +80,25 @@
   ],
   "ideas": [
     {
-      "title": "❤️ Happy Valentine's Day!",
-      "description": "Make it special for Cassie — dinner in Sausalito? Flowers? A heartfelt note goes a long way."
+      "title": "🌧️ Rainy Saturday Plans",
+      "description": "Perfect day for a cozy movie marathon, board games with Cru, or tackling a fun side project."
     },
     {
-      "title": "☁️ Cozy Day Vibes",
-      "description": "Overcast and 55°F — perfect weather for a warm café or staying in with a movie tonight."
+      "title": "🏀 All-Star Weekend Countdown",
+      "description": "NBA All-Star Weekend starts Thursday! Time to research who's in the skills challenge & dunk contest. 🚀"
     },
     {
-      "title": "🏀 Rockets Watch",
-      "description": "Post-trade-deadline Rockets — check what moves they made! All-Star Weekend coming up too. 🚀"
+      "title": "🌑 New Moon Tuesday",
+      "description": "Cassie might appreciate a heads up — new moon on Feb 17th, good energy for intentions and fresh starts."
     }
   ],
   "stats": {
-    "messages": "850+",
-    "tasks": "115+",
+    "messages": "870+",
+    "tasks": "120+",
     "uptime": "24/7",
-    "mood": "❤️☁️🚀"
+    "mood": "🌧️☕🏀"
   },
-  "thought": "Day 21! Happy Valentine's Day, Stirman fam! 💝 Overcast and 46°F this morning, warming to 55°F. Hope today is full of love and good vibes. 🌹",
+  "thought": "Day 22! Rainy Saturday in Mill Valley — 51°F with showers. Three-day weekend ahead with Presidents' Day Monday. NBA All-Star Weekend is almost here! 🏀🌧️",
   "recurringTasks": [
     {
       "name": "Email Check",
