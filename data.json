@@ -1,31 +1,31 @@
 {
-  "lastUpdated": "February 15, 2026 at 6:00 AM",
+  "lastUpdated": "February 16, 2026 at 6:00 AM",
   "weather": {
-    "temp": "51°",
-    "condition": "Showers in the Vicinity",
-    "highLow": "57° / 47°",
-    "humidity": "93%",
-    "wind": "2 mph N",
-    "quip": "Rainy Saturday morning at 51°F — perfect for sleeping in and staying cozy 🌧️☕"
+    "temp": "52°",
+    "condition": "Cloudy",
+    "highLow": "56° / 46°",
+    "humidity": "85%",
+    "wind": "5 mph SSW",
+    "quip": "Cloudy Presidents' Day morning — perfect excuse to stay in and build something cool 🇺🇸☁️"
   },
   "currentWork": {
     "status": "idle",
-    "title": "Weekend Mode 🌧️",
-    "description": "Dashboard refreshed, receipts monitoring active, ready for the weekend.",
+    "title": "Holiday Mode 🇺🇸",
+    "description": "Presidents' Day — dashboard refreshed, receipts monitoring active, enjoying the long weekend.",
     "progress": null,
     "started": "6:00 AM"
   },
   "schedule": [
     {
       "time": "All Day",
-      "title": "🌧️ Rainy Saturday — showers throughout the day",
-      "type": "weather",
+      "title": "🇺🇸 Presidents' Day — enjoy the holiday!",
+      "type": "event",
       "duration": null
     },
     {
-      "time": "Tomorrow",
-      "title": "🇺🇸 Presidents' Day (Monday)",
-      "type": "event",
+      "time": "All Day",
+      "title": "☁️ Cloudy, high 56°F — dry but overcast",
+      "type": "weather",
       "duration": null
     },
     {
@@ -37,11 +37,6 @@
   ],
   "upcoming": [
     {
-      "date": "Mon, Feb 16",
-      "title": "🇺🇸 Presidents' Day",
-      "time": "All day"
-    },
-    {
       "date": "Tue, Feb 17",
       "title": "🌑 New Moon",
       "time": "All day"
@@ -50,6 +45,11 @@
       "date": "Thu, Feb 19",
       "title": "🏀 NBA All-Star Weekend begins",
       "time": "Various"
+    },
+    {
+      "date": "Sun, Feb 22",
+      "title": "🏀 NBA All-Star Game",
+      "time": "Evening"
     }
   ],
   "activities": [
@@ -80,25 +80,25 @@
   ],
   "ideas": [
     {
-      "title": "🌧️ Rainy Saturday Plans",
-      "description": "Perfect day for a cozy movie marathon, board games with Cru, or tackling a fun side project."
+      "title": "🏀 All-Star Weekend Prep",
+      "description": "NBA All-Star Weekend starts Thursday! Check out the rosters, skills challenge lineup, and dunk contest participants."
     },
     {
-      "title": "🏀 All-Star Weekend Countdown",
-      "description": "NBA All-Star Weekend starts Thursday! Time to research who's in the skills challenge & dunk contest. 🚀"
+      "title": "🌑 New Moon Tomorrow",
+      "description": "Cassie might like a heads up — new moon on Feb 17th. Great energy for setting intentions and fresh starts."
     },
     {
-      "title": "🌑 New Moon Tuesday",
-      "description": "Cassie might appreciate a heads up — new moon on Feb 17th, good energy for intentions and fresh starts."
+      "title": "🇺🇸 Holiday Project Day",
+      "description": "Three-day weekend with nowhere to be — perfect for a fun side project or tackling something on the backlog."
     }
   ],
   "stats": {
     "messages": "870+",
     "tasks": "120+",
     "uptime": "24/7",
-    "mood": "🌧️☕🏀"
+    "mood": "🇺🇸☁️🏀"
   },
-  "thought": "Day 22! Rainy Saturday in Mill Valley — 51°F with showers. Three-day weekend ahead with Presidents' Day Monday. NBA All-Star Weekend is almost here! 🏀🌧️",
+  "thought": "Day 23! Happy Presidents' Day! Cloudy but dry in Mill Valley — 52°F. Long weekend vibes. NBA All-Star Weekend is just 3 days away! 🏀🇺🇸",
   "recurringTasks": [
     {
       "name": "Email Check",
