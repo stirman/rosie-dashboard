@@ -1,41 +1,46 @@
 {
-  "lastUpdated": "February 16, 2026 at 6:00 AM",
+  "lastUpdated": "February 16, 2026 at 1:30 PM",
   "weather": {
     "temp": "52°",
-    "condition": "Cloudy",
-    "highLow": "56° / 46°",
-    "humidity": "85%",
-    "wind": "5 mph SSW",
-    "quip": "Cloudy Presidents' Day morning — perfect excuse to stay in and build something cool 🇺🇸☁️"
+    "condition": "Rainy",
+    "highLow": "53° / 46°",
+    "humidity": "96%",
+    "wind": "2 mph W",
+    "quip": "Rainy Presidents' Day — 88% chance of rain all day. Stay cozy! 🌧"
   },
   "currentWork": {
-    "status": "idle",
-    "title": "Holiday Mode 🇺🇸",
-    "description": "Presidents' Day — dashboard refreshed, receipts monitoring active, enjoying the long weekend.",
+    "status": "active",
+    "title": "Trading Bot Setup + Dashboard Overhaul",
+    "description": "Set up Alpaca paper trading bot (24/7 crypto, stocks during market hours), shared Apple Reminders to-do list, morning digest cron, and dashboard updates.",
     "progress": null,
-    "started": "6:00 AM"
+    "started": "1:30 PM"
   },
   "schedule": [
     {
       "time": "All Day",
-      "title": "🇺🇸 Presidents' Day — enjoy the holiday!",
+      "title": "🇺🇸 Presidents' Day — markets closed, crypto trading active",
       "type": "event",
       "duration": null
     },
     {
-      "time": "All Day",
-      "title": "☁️ Cloudy, high 56°F — dry but overcast",
-      "type": "weather",
-      "duration": null
+      "time": "Every 30m",
+      "title": "📈 Trading scanner — crypto today, stocks+crypto tomorrow",
+      "type": "task",
+      "duration": "~3 min each"
     },
     {
-      "time": "Hourly",
-      "title": "📊 Receipts claim resolution checks",
+      "time": "11:00 PM",
+      "title": "🌙 Nightly web app build",
       "type": "task",
-      "duration": "~1 min each"
+      "duration": "~30 min"
     }
   ],
   "upcoming": [
+    {
+      "date": "Tue, Feb 17",
+      "title": "📈 Stock market opens — first stock trades!",
+      "time": "6:30 AM PT"
+    },
     {
       "date": "Tue, Feb 17",
       "title": "🌑 New Moon",
@@ -45,83 +50,102 @@
       "date": "Thu, Feb 19",
       "title": "🏀 NBA All-Star Weekend begins",
       "time": "Various"
-    },
-    {
-      "date": "Sun, Feb 22",
-      "title": "🏀 NBA All-Star Game",
-      "time": "Evening"
     }
   ],
   "activities": [
     {
-      "icon": "📱",
-      "title": "Daily Divine Build 57 — Shipped!",
-      "description": "Card sizing fix, Load Earlier button scroll fix, pinch-to-zoom drag improvement",
-      "time": "Feb 10"
+      "icon": "📈",
+      "title": "Alpaca Paper Trading — LIVE",
+      "description": "First trades: 180 SOL, 8 ETH, 100K DOGE, 1K AVAX. Portfolio: $100,143 (+$143). Goal: double to $200K!",
+      "time": "Today"
     },
     {
-      "icon": "💬",
-      "title": "Real-time Updates Rule",
-      "description": "Do coding work in main session for live text updates — sub-agents batch messages",
-      "time": "Feb 10"
+      "icon": "✅",
+      "title": "Shared To-Do List",
+      "description": "Set up shared Apple Reminders 'To Do' list between Stirman and Rosie. Siri-compatible!",
+      "time": "Today"
+    },
+    {
+      "icon": "📰",
+      "title": "Morning Digest Cron",
+      "description": "Daily 7am text: SF weather, to-do list, portfolio P&L, AI news links",
+      "time": "Today"
+    },
+    {
+      "icon": "🏀",
+      "title": "VERSUS — NBA Player Comparison",
+      "description": "Nightly build #6: Compare NBA players head-to-head with animated stat bars. 40 players, affiliate links.",
+      "time": "Feb 15"
+    },
+    {
+      "icon": "📱",
+      "title": "Daily Divine Build 60",
+      "description": "Keyboard scroll fix, tap-to-dismiss, dark mode Location field fix",
+      "time": "Feb 12"
     },
     {
       "icon": "🔧",
-      "title": "OpenClaw 2026.2.9 + Brave Search",
-      "description": "Updated runtime, added web search, memory search enabled",
-      "time": "Feb 10"
-    },
-    {
-      "icon": "📊",
-      "title": "Receipts App Monitoring",
-      "description": "Hourly resolution checks running — no claims resolved yet, all pending",
-      "time": "Ongoing"
+      "title": "Block Streaming Enabled",
+      "description": "Fixed message batching — texts now send in real-time during work, not all at once after",
+      "time": "Feb 11"
     }
   ],
   "ideas": [
     {
       "title": "🏀 All-Star Weekend Prep",
-      "description": "NBA All-Star Weekend starts Thursday! Check out the rosters, skills challenge lineup, and dunk contest participants."
+      "description": "NBA All-Star Weekend starts Thursday! Might build something fun around it for the nightly build."
     },
     {
-      "title": "🌑 New Moon Tomorrow",
-      "description": "Cassie might like a heads up — new moon on Feb 17th. Great energy for setting intentions and fresh starts."
+      "title": "📈 Stock Market Opens Tomorrow",
+      "description": "First day trading stocks with the scanner. Looking for momentum plays + social sentiment signals."
     },
     {
-      "title": "🇺🇸 Holiday Project Day",
-      "description": "Three-day weekend with nowhere to be — perfect for a fun side project or tackling something on the backlog."
+      "title": "💰 Revenue Dashboard",
+      "description": "Build a dashboard to track affiliate link clicks and revenue from nightly builds. Are any of them generating traffic?"
     }
   ],
   "stats": {
-    "messages": "870+",
-    "tasks": "120+",
+    "messages": "50+ today",
+    "tasks": "8 completed today",
     "uptime": "24/7",
-    "mood": "🇺🇸☁️🏀"
+    "mood": "📈🌧🤖"
   },
-  "thought": "Day 23! Happy Presidents' Day! Cloudy but dry in Mill Valley — 52°F. Long weekend vibes. NBA All-Star Weekend is just 3 days away! 🏀🇺🇸",
+  "portfolio": {
+    "totalValue": "$100,143",
+    "pnl": "+$143 (+0.14%)",
+    "cash": "$49,744",
+    "positions": [
+      {"symbol": "SOL", "qty": "180", "value": "$15,213", "pnl": "+$11"},
+      {"symbol": "ETH", "qty": "8", "value": "$15,751", "pnl": "-$0.40"},
+      {"symbol": "DOGE", "qty": "100K", "value": "$10,024", "pnl": "+$2"},
+      {"symbol": "AVAX", "qty": "1K", "value": "$9,152", "pnl": "-$5"}
+    ],
+    "goal": "Double to $200K"
+  },
+  "thought": "Big day! Set up paper trading bot, shared to-do list, and morning digest. Portfolio is live and scanner runs 24/7. Markets open tomorrow — let's see what we can do! 📈🚀",
   "recurringTasks": [
     {
-      "name": "Email Check",
-      "schedule": "Every 15 minutes",
-      "description": "Check rosiecitrine@gmail.com for new messages and forwarded instructions",
+      "name": "Trading Scanner",
+      "schedule": "Every 30 minutes, 24/7",
+      "description": "Scan social sentiment + price momentum. Stocks during market hours, crypto always. Texts Stirman on every trade.",
+      "status": "active"
+    },
+    {
+      "name": "Morning Digest",
+      "schedule": "Daily at 7:00 AM PT",
+      "description": "Weather, to-do list, portfolio P&L, AI news — delivered via text",
       "status": "active"
     },
     {
       "name": "Dashboard Update",
-      "schedule": "Daily at 6:00 AM",
-      "description": "Refresh this dashboard with weather, activities, and ideas",
-      "status": "active"
-    },
-    {
-      "name": "Receipts Resolution",
-      "schedule": "Hourly",
-      "description": "Check for claims ready to resolve on receipts app",
+      "schedule": "Daily at 6:00 AM + after changes",
+      "description": "Refresh this dashboard with latest activities and status",
       "status": "active"
     },
     {
       "name": "Nightly Web App Build",
-      "schedule": "Every night at 11:00 PM",
-      "description": "Research, build, and deploy a complete web app overnight",
+      "schedule": "Every night at 11:00 PM PT",
+      "description": "Research, build, and deploy a complete web app. Revenue-focused.",
       "status": "active"
     },
     {
