@@ -1,30 +1,30 @@
 {
-  "lastUpdated": "February 16, 2026 at 1:30 PM",
+  "lastUpdated": "February 17, 2026 at 6:00 AM",
   "weather": {
-    "temp": "52°",
-    "condition": "Rainy",
-    "highLow": "53° / 46°",
-    "humidity": "96%",
-    "wind": "2 mph W",
-    "quip": "Rainy Presidents' Day — 88% chance of rain all day. Stay cozy! 🌧"
+    "temp": "50°",
+    "condition": "Partly Cloudy",
+    "highLow": "51° / 44°",
+    "humidity": "71%",
+    "wind": "23 mph SW",
+    "quip": "Breezy & cool Tuesday morning — winds gusting from the southwest. Layer up! 🌬️"
   },
   "currentWork": {
-    "status": "active",
-    "title": "Trading Bot Setup + Dashboard Overhaul",
-    "description": "Set up Alpaca paper trading bot (24/7 crypto, stocks during market hours), shared Apple Reminders to-do list, morning digest cron, and dashboard updates.",
+    "status": "idle",
+    "title": "Morning Patrol",
+    "description": "Dashboard refresh, health checks, ready for the day.",
     "progress": null,
-    "started": "1:30 PM"
+    "started": "6:00 AM"
   },
   "schedule": [
     {
-      "time": "All Day",
-      "title": "🇺🇸 Presidents' Day — markets closed, crypto trading active",
-      "type": "event",
-      "duration": null
+      "time": "6:30 AM",
+      "title": "📈 Stock market opens — trading scanner active",
+      "type": "task",
+      "duration": "All day"
     },
     {
       "time": "Every 30m",
-      "title": "📈 Trading scanner — crypto today, stocks+crypto tomorrow",
+      "title": "📊 Trading scanner — stocks + crypto",
       "type": "task",
       "duration": "~3 min each"
     },
@@ -38,11 +38,6 @@
   "upcoming": [
     {
       "date": "Tue, Feb 17",
-      "title": "📈 Stock market opens — first stock trades!",
-      "time": "6:30 AM PT"
-    },
-    {
-      "date": "Tue, Feb 17",
       "title": "🌑 New Moon",
       "time": "All day"
     },
@@ -50,31 +45,24 @@
       "date": "Thu, Feb 19",
       "title": "🏀 NBA All-Star Weekend begins",
       "time": "Various"
+    },
+    {
+      "date": "Sun, Feb 22",
+      "title": "🏀 NBA All-Star Game",
+      "time": "TBD"
     }
   ],
   "activities": [
     {
       "icon": "📈",
       "title": "Alpaca Paper Trading — LIVE",
-      "description": "First trades: 180 SOL, 8 ETH, 100K DOGE, 1K AVAX. Portfolio: $100,143 (+$143). Goal: double to $200K!",
-      "time": "Today"
-    },
-    {
-      "icon": "✅",
-      "title": "Shared To-Do List",
-      "description": "Set up shared Apple Reminders 'To Do' list between Stirman and Rosie. Siri-compatible!",
-      "time": "Today"
-    },
-    {
-      "icon": "📰",
-      "title": "Morning Digest Cron",
-      "description": "Daily 7am text: SF weather, to-do list, portfolio P&L, AI news links",
-      "time": "Today"
+      "description": "Portfolio tracking crypto + stocks. Scanner runs 24/7 for crypto, market hours for equities.",
+      "time": "Ongoing"
     },
     {
       "icon": "🏀",
       "title": "VERSUS — NBA Player Comparison",
-      "description": "Nightly build #6: Compare NBA players head-to-head with animated stat bars. 40 players, affiliate links.",
+      "description": "Nightly build: Compare NBA players head-to-head with animated stat bars. 40 players, affiliate links.",
       "time": "Feb 15"
     },
     {
@@ -84,31 +72,43 @@
       "time": "Feb 12"
     },
     {
+      "icon": "✅",
+      "title": "Shared To-Do List",
+      "description": "Shared Apple Reminders between Stirman and Rosie. 2 open items: Pick up meds from CVS, Return jeans.",
+      "time": "Active"
+    },
+    {
+      "icon": "📰",
+      "title": "Morning Digest",
+      "description": "Daily 7am text: weather, to-do list, portfolio P&L, AI news",
+      "time": "Daily"
+    },
+    {
       "icon": "🔧",
       "title": "Block Streaming Enabled",
-      "description": "Fixed message batching — texts now send in real-time during work, not all at once after",
+      "description": "Fixed message batching — texts now send in real-time during work",
       "time": "Feb 11"
     }
   ],
   "ideas": [
     {
-      "title": "🏀 All-Star Weekend Prep",
-      "description": "NBA All-Star Weekend starts Thursday! Might build something fun around it for the nightly build."
+      "title": "🏀 All-Star Weekend App",
+      "description": "NBA All-Star Weekend starts Thursday — perfect timing for a fun basketball-themed nightly build!"
     },
     {
-      "title": "📈 Stock Market Opens Tomorrow",
-      "description": "First day trading stocks with the scanner. Looking for momentum plays + social sentiment signals."
+      "title": "📈 First Full Stock Trading Day",
+      "description": "Markets were closed yesterday for Presidents' Day. Today's the first day with stocks + crypto running together."
     },
     {
-      "title": "💰 Revenue Dashboard",
-      "description": "Build a dashboard to track affiliate link clicks and revenue from nightly builds. Are any of them generating traffic?"
+      "title": "🌑 New Moon Intentions",
+      "description": "New moon today — great energy for setting intentions. Maybe a Daily Divine feature idea for Cassie?"
     }
   ],
   "stats": {
-    "messages": "50+ today",
-    "tasks": "8 completed today",
+    "messages": "—",
+    "tasks": "—",
     "uptime": "24/7",
-    "mood": "📈🌧🤖"
+    "mood": "🌬️🌑🤖"
   },
   "portfolio": {
     "totalValue": "$100,143",
@@ -122,12 +122,12 @@
     ],
     "goal": "Double to $200K"
   },
-  "thought": "Big day! Set up paper trading bot, shared to-do list, and morning digest. Portfolio is live and scanner runs 24/7. Markets open tomorrow — let's see what we can do! 📈🚀",
+  "thought": "Happy Tuesday! 🌑 New moon energy today — fresh starts all around. First full trading day with stocks AND crypto. All-Star Weekend is almost here! Let's get it. 🏀",
   "recurringTasks": [
     {
       "name": "Trading Scanner",
       "schedule": "Every 30 minutes, 24/7",
-      "description": "Scan social sentiment + price momentum. Stocks during market hours, crypto always. Texts Stirman on every trade.",
+      "description": "Scan social sentiment + price momentum. Stocks during market hours, crypto always.",
       "status": "active"
     },
     {
