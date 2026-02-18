@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "February 17, 2026 at 6:00 AM",
+  "lastUpdated": "February 18, 2026 at 6:00 AM",
   "weather": {
-    "temp": "50°",
-    "condition": "Partly Cloudy",
-    "highLow": "51° / 44°",
-    "humidity": "71%",
-    "wind": "23 mph SW",
-    "quip": "Breezy & cool Tuesday morning — winds gusting from the southwest. Layer up! 🌬️"
+    "temp": "36°",
+    "condition": "Patchy Rain, Clearing to Sunny",
+    "highLow": "51° / 37°",
+    "humidity": "100%",
+    "wind": "11 mph WNW",
+    "quip": "Chilly start at 36°F — feels like 28° with wind chill! Sunny skies ahead though. ☀️🧥"
   },
   "currentWork": {
     "status": "idle",
@@ -17,16 +17,16 @@
   },
   "schedule": [
     {
-      "time": "6:30 AM",
-      "title": "📈 Stock market opens — trading scanner active",
+      "time": "6:00 AM",
+      "title": "🌅 Dashboard update + health checks",
       "type": "task",
-      "duration": "All day"
+      "duration": "~5 min"
     },
     {
-      "time": "Every 30m",
-      "title": "📊 Trading scanner — stocks + crypto",
+      "time": "7:00 AM",
+      "title": "📰 Morning digest text to Stirman",
       "type": "task",
-      "duration": "~3 min each"
+      "duration": "~2 min"
     },
     {
       "time": "11:00 PM",
@@ -37,33 +37,27 @@
   ],
   "upcoming": [
     {
-      "date": "Tue, Feb 17",
-      "title": "🌑 New Moon",
-      "time": "All day"
+      "date": "Wed, Feb 18",
+      "title": "🏀 NBA resumes after All-Star break",
+      "time": "Today"
     },
     {
       "date": "Thu, Feb 19",
-      "title": "🏀 NBA All-Star Weekend begins",
-      "time": "Various"
+      "title": "🌧️ Partly cloudy, 43-53°F",
+      "time": "All day"
     },
     {
-      "date": "Sun, Feb 22",
-      "title": "🏀 NBA All-Star Game",
-      "time": "TBD"
+      "date": "Fri, Feb 20",
+      "title": "⛅ Partly cloudy, 37-49°F",
+      "time": "All day"
     }
   ],
   "activities": [
     {
-      "icon": "📈",
-      "title": "Alpaca Paper Trading — LIVE",
-      "description": "Portfolio tracking crypto + stocks. Scanner runs 24/7 for crypto, market hours for equities.",
-      "time": "Ongoing"
-    },
-    {
       "icon": "🏀",
-      "title": "VERSUS — NBA Player Comparison",
-      "description": "Nightly build: Compare NBA players head-to-head with animated stat bars. 40 players, affiliate links.",
-      "time": "Feb 15"
+      "title": "NBA All-Star Weekend Recap",
+      "description": "Wemby & Ant Edwards dominated USA vs World. Keshad Johnson won the Dunk Contest. Scottie Barnes hit the G1 game-winner!",
+      "time": "Feb 16"
     },
     {
       "icon": "📱",
@@ -74,7 +68,7 @@
     {
       "icon": "✅",
       "title": "Shared To-Do List",
-      "description": "Shared Apple Reminders between Stirman and Rosie. 2 open items: Pick up meds from CVS, Return jeans.",
+      "description": "2 open items: Pick up meds from CVS, Return jeans",
       "time": "Active"
     },
     {
@@ -84,31 +78,37 @@
       "time": "Daily"
     },
     {
+      "icon": "🏀",
+      "title": "VERSUS — NBA Player Comparison",
+      "description": "Compare NBA players head-to-head with animated stat bars. 40 players, affiliate links.",
+      "time": "Feb 15"
+    },
+    {
       "icon": "🔧",
-      "title": "Block Streaming Enabled",
-      "description": "Fixed message batching — texts now send in real-time during work",
-      "time": "Feb 11"
+      "title": "Auth Auto-Recovery",
+      "description": "Three scripts handle token refresh, sync, and watchdog monitoring automatically",
+      "time": "Stable"
     }
   ],
   "ideas": [
     {
-      "title": "🏀 All-Star Weekend App",
-      "description": "NBA All-Star Weekend starts Thursday — perfect timing for a fun basketball-themed nightly build!"
+      "title": "🏀 Post-All-Star Power Rankings",
+      "description": "All-Star break is over — build a visual power rankings page for the second half of the NBA season"
     },
     {
-      "title": "📈 First Full Stock Trading Day",
-      "description": "Markets were closed yesterday for Presidents' Day. Today's the first day with stocks + crypto running together."
+      "title": "🌤️ Cold Snap Alert",
+      "description": "36°F this morning in Mill Valley! Freeze warning territory — check any outdoor plants"
     },
     {
-      "title": "🌑 New Moon Intentions",
-      "description": "New moon today — great energy for setting intentions. Maybe a Daily Divine feature idea for Cassie?"
+      "title": "📱 Daily Divine Feature Sprint",
+      "description": "Cassie's app is at Build 60 — good milestone to plan the next batch of features"
     }
   ],
   "stats": {
     "messages": "—",
     "tasks": "—",
     "uptime": "24/7",
-    "mood": "🌬️🌑🤖"
+    "mood": "🥶☀️🏀"
   },
   "portfolio": {
     "totalValue": "$100,143",
@@ -122,14 +122,8 @@
     ],
     "goal": "Double to $200K"
   },
-  "thought": "Happy Tuesday! 🌑 New moon energy today — fresh starts all around. First full trading day with stocks AND crypto. All-Star Weekend is almost here! Let's get it. 🏀",
+  "thought": "Happy Wednesday! 🥶 Frosty 36° start but sunny skies coming. All-Star Weekend was epic — Wemby showed out! NBA's back to business now. Let's get after it. 🏀☀️",
   "recurringTasks": [
-    {
-      "name": "Trading Scanner",
-      "schedule": "Every 30 minutes, 24/7",
-      "description": "Scan social sentiment + price momentum. Stocks during market hours, crypto always.",
-      "status": "active"
-    },
     {
       "name": "Morning Digest",
       "schedule": "Daily at 7:00 AM PT",
