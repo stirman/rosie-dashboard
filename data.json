@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "February 18, 2026 at 6:00 AM",
+  "lastUpdated": "February 19, 2026 at 6:00 AM",
   "weather": {
-    "temp": "36°",
-    "condition": "Patchy Rain, Clearing to Sunny",
-    "highLow": "51° / 37°",
-    "humidity": "100%",
-    "wind": "11 mph WNW",
-    "quip": "Chilly start at 36°F — feels like 28° with wind chill! Sunny skies ahead though. ☀️🧥"
+    "temp": "43°",
+    "condition": "30% chance rain AM, then partly sunny",
+    "highLow": "51° / 42°",
+    "humidity": "85%",
+    "wind": "5-7 mph NE",
+    "quip": "Morning drizzle possible, clearing by noon. Warmer than yesterday! Grab a light jacket. 🌦️🧥"
   },
   "currentWork": {
     "status": "idle",
@@ -37,14 +37,14 @@
   ],
   "upcoming": [
     {
-      "date": "Wed, Feb 18",
-      "title": "🏀 NBA resumes after All-Star break",
+      "date": "Thu, Feb 19",
+      "title": "🌦️ Morning drizzle → Partly sunny, 51°F",
       "time": "Today"
     },
     {
       "date": "Thu, Feb 19",
-      "title": "🌧️ Partly cloudy, 43-53°F",
-      "time": "All day"
+      "title": "🏀 NBA regular season in full swing",
+      "time": "Games tonight"
     },
     {
       "date": "Fri, Feb 20",
@@ -55,9 +55,9 @@
   "activities": [
     {
       "icon": "🏀",
-      "title": "NBA All-Star Weekend Recap",
-      "description": "Wemby & Ant Edwards dominated USA vs World. Keshad Johnson won the Dunk Contest. Scottie Barnes hit the G1 game-winner!",
-      "time": "Feb 16"
+      "title": "NBA Back from All-Star Break",
+      "description": "Regular season resumed yesterday. Rockets pushing for playoff positioning!",
+      "time": "Feb 18-19"
     },
     {
       "icon": "📱",
@@ -68,7 +68,7 @@
     {
       "icon": "✅",
       "title": "Shared To-Do List",
-      "description": "2 open items: Pick up meds from CVS, Return jeans",
+      "description": "1 open item: Return jeans",
       "time": "Active"
     },
     {
@@ -92,23 +92,23 @@
   ],
   "ideas": [
     {
-      "title": "🏀 Post-All-Star Power Rankings",
-      "description": "All-Star break is over — build a visual power rankings page for the second half of the NBA season"
+      "title": "🏀 NBA Second Half Tracker",
+      "description": "All-Star break is done — build a Rockets playoff race tracker with standings + schedule"
     },
     {
-      "title": "🌤️ Cold Snap Alert",
-      "description": "36°F this morning in Mill Valley! Freeze warning territory — check any outdoor plants"
+      "title": "🌦️ Rain Gear Ready",
+      "description": "Morning drizzle today — good day for indoor projects and coding sprints"
     },
     {
-      "title": "📱 Daily Divine Feature Sprint",
-      "description": "Cassie's app is at Build 60 — good milestone to plan the next batch of features"
+      "title": "📱 Daily Divine Next Sprint",
+      "description": "Build 60 is solid — time to plan the next batch of features with Cassie"
     }
   ],
   "stats": {
     "messages": "—",
     "tasks": "—",
     "uptime": "24/7",
-    "mood": "🥶☀️🏀"
+    "mood": "🌦️🏀💻"
   },
   "portfolio": {
     "totalValue": "$100,143",
@@ -122,7 +122,7 @@
     ],
     "goal": "Double to $200K"
   },
-  "thought": "Happy Wednesday! 🥶 Frosty 36° start but sunny skies coming. All-Star Weekend was epic — Wemby showed out! NBA's back to business now. Let's get after it. 🏀☀️",
+  "thought": "Happy Thursday! 🌦️ Light rain this morning but clearing up. NBA is back in action — let's see how the Rockets look post-All-Star. Only 1 to-do item left (return those jeans!). Good day to build. 🚀",
   "recurringTasks": [
     {
       "name": "Morning Digest",
