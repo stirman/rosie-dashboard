@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosie's Daily Dashboard 🤖</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -173,6 +174,49 @@
                 <div class="tasks-list" id="tasks-list">
                     <!-- Populated by JS -->
                 </div>
+            </section>
+
+            <!-- Trading Portfolio -->
+            <section class="card trading-card" style="grid-column: 1 / -1;">
+                <div class="card-header">
+                    <span class="card-icon">📈</span>
+                    <h2>Paper Trading Portfolio</h2>
+                    <span class="trading-badge" id="trading-badge">PAPER</span>
+                </div>
+                <div class="trading-overview">
+                    <div class="trading-stat-big">
+                        <span class="trading-value" id="portfolio-value">$97,433</span>
+                        <span class="trading-label">Portfolio Value</span>
+                    </div>
+                    <div class="trading-stat-big">
+                        <span class="trading-value" id="portfolio-pnl" style="color: var(--color-error, #ef4444);">-$2,567</span>
+                        <span class="trading-label">Total P&L</span>
+                    </div>
+                    <div class="trading-stat-big">
+                        <span class="trading-value" id="portfolio-pnl-pct">-2.6%</span>
+                        <span class="trading-label">Return</span>
+                    </div>
+                    <div class="trading-stat-big">
+                        <span class="trading-value" id="portfolio-goal">$200K</span>
+                        <span class="trading-label">Goal</span>
+                    </div>
+                </div>
+                <div class="trading-chart-container">
+                    <canvas id="portfolio-chart" height="220"></canvas>
+                </div>
+                <div class="trading-positions">
+                    <h3 style="margin: 1rem 0 0.5rem; font-size: 0.9rem; color: var(--text-secondary, #94a3b8); text-transform: uppercase; letter-spacing: 0.05em;">Positions</h3>
+                    <div class="positions-grid" id="positions-grid">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+                <div class="trading-log">
+                    <h3 style="margin: 1rem 0 0.5rem; font-size: 0.9rem; color: var(--text-secondary, #94a3b8); text-transform: uppercase; letter-spacing: 0.05em;">Recent Activity</h3>
+                    <div class="trade-log-list" id="trade-log-list">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+                <p class="trading-disclaimer">⚠️ Paper trading on Alpaca — not real money. Goal: double $100K → $200K.</p>
             </section>
 
             <!-- Quick Stats -->

@@ -111,16 +111,47 @@
     "mood": "🌦️🏀💻"
   },
   "portfolio": {
-    "totalValue": "$100,143",
-    "pnl": "+$143 (+0.14%)",
-    "cash": "$49,744",
-    "positions": [
-      {"symbol": "SOL", "qty": "180", "value": "$15,213", "pnl": "+$11"},
-      {"symbol": "ETH", "qty": "8", "value": "$15,751", "pnl": "-$0.40"},
-      {"symbol": "DOGE", "qty": "100K", "value": "$10,024", "pnl": "+$2"},
-      {"symbol": "AVAX", "qty": "1K", "value": "$9,152", "pnl": "-$5"}
+    "totalValue": "$97,433",
+    "pnl": "-$2,567",
+    "pnlPct": "-2.6%",
+    "cash": "-$42,149",
+    "goal": "$200K",
+    "startingBalance": 100000,
+    "history": [
+      {"date": "Feb 16", "value": 100000},
+      {"date": "Feb 16 PM", "value": 100143},
+      {"date": "Feb 17", "value": 100282},
+      {"date": "Feb 17 PM", "value": 99506},
+      {"date": "Feb 18", "value": 98619},
+      {"date": "Feb 18 PM", "value": 97734},
+      {"date": "Feb 19", "value": 97433}
     ],
-    "goal": "Double to $200K"
+    "positions": [
+      {"symbol": "GLBE", "value": "$24,530", "pnl": "+2.9%", "side": "positive"},
+      {"symbol": "SOL", "value": "$17,501", "pnl": "-4.3%", "side": "negative"},
+      {"symbol": "ETH", "value": "$15,354", "pnl": "-2.5%", "side": "negative"},
+      {"symbol": "ZIM", "value": "$10,089", "pnl": "+3.0%", "side": "positive"},
+      {"symbol": "ALB", "value": "$9,953", "pnl": "-0.5%", "side": "negative"},
+      {"symbol": "BABA", "value": "$9,905", "pnl": "+0.04%", "side": "positive"},
+      {"symbol": "NVDA", "value": "$9,720", "pnl": "-1.2%", "side": "negative"},
+      {"symbol": "DOGE", "value": "$9,640", "pnl": "-3.8%", "side": "negative"},
+      {"symbol": "TOST", "value": "$9,562", "pnl": "-3.3%", "side": "negative"},
+      {"symbol": "MU", "value": "$9,580", "pnl": "-1.9%", "side": "negative"},
+      {"symbol": "COIN", "value": "$9,017", "pnl": "-2.9%", "side": "negative"},
+      {"symbol": "AVAX", "value": "$8,821", "pnl": "-3.7%", "side": "negative"}
+    ],
+    "recentTrades": [
+      {"action": "BUY", "detail": "115 GLBE @ $35.59 — adding to winner", "date": "Feb 19"},
+      {"action": "SELL", "detail": "1,097 LINK @ $8.54 — hit -5% stop", "date": "Feb 18"},
+      {"action": "BUY", "detail": "23 MU @ $425 — semis momentum", "date": "Feb 18"},
+      {"action": "BUY", "detail": "300 GLBE @ $33.32 — earnings beat +23%", "date": "Feb 18"},
+      {"action": "BUY", "detail": "52 NVDA @ $189 — pre-earnings run", "date": "Feb 18"},
+      {"action": "SELL", "detail": "790 CNH @ $12.55 — weak outlook", "date": "Feb 18"},
+      {"action": "BUY", "detail": "790 CNH @ $12.59 — earnings beat", "date": "Feb 18"},
+      {"action": "BUY", "detail": "350 ZIM, 350 TOST, 64 BABA, 55 COIN, 59 ALB", "date": "Feb 17"},
+      {"action": "BUY", "detail": "180 SOL, 8 ETH, 100K DOGE, 1K AVAX", "date": "Feb 16"}
+    ],
+    "strategy": "Aggressive momentum — ride winners, cut losers at -8%. Full margin. Goal: $100K → $200K."
   },
   "thought": "Happy Thursday! 🌦️ Light rain this morning but clearing up. NBA is back in action — let's see how the Rockets look post-All-Star. Only 1 to-do item left (return those jeans!). Good day to build. 🚀",
   "recurringTasks": [

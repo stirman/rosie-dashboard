@@ -208,6 +208,9 @@ async function loadDashboardData() {
             document.getElementById('last-updated').textContent = data.lastUpdated;
         }
         
+        // Render trading portfolio
+        renderTrading(data);
+        
         // Update recurring tasks
         if (data.recurringTasks && data.recurringTasks.length > 0) {
             const tasksList = document.getElementById('tasks-list');
@@ -265,6 +268,138 @@ async function loadDashboardData() {
     } catch (error) {
         console.log('Using default data (no data.json found)');
         // Use defaults already in HTML
+    }
+}
+
+// Render trading portfolio
+function renderTrading(data) {
+    if (!data || !data.portfolio) return;
+    const p = data.portfolio;
+
+    // Update overview stats
+    const valEl = document.getElementById('portfolio-value');
+    const pnlEl = document.getElementById('portfolio-pnl');
+    const pctEl = document.getElementById('portfolio-pnl-pct');
+    const goalEl = document.getElementById('portfolio-goal');
+    if (valEl) valEl.textContent = p.totalValue || '—';
+    if (pnlEl) {
+        pnlEl.textContent = p.pnl || '—';
+        pnlEl.style.color = (p.pnl && p.pnl.startsWith('-')) ? '#f87171' : '#4ade80';
+    }
+    if (pctEl) {
+        pctEl.textContent = p.pnlPct || '—';
+        pctEl.style.color = (p.pnlPct && p.pnlPct.startsWith('-')) ? '#f87171' : '#4ade80';
+    }
+    if (goalEl) goalEl.textContent = p.goal || '$200K';
+
+    // Render chart
+    if (p.history && p.history.length > 0 && typeof Chart !== 'undefined') {
+        const ctx = document.getElementById('portfolio-chart');
+        if (ctx) {
+            // Destroy existing chart if any
+            if (window._portfolioChart) window._portfolioChart.destroy();
+
+            const labels = p.history.map(h => h.date);
+            const values = p.history.map(h => h.value);
+            const startVal = p.startingBalance || 100000;
+            const goalLine = Array(values.length).fill(200000);
+            const startLine = Array(values.length).fill(startVal);
+
+            window._portfolioChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Portfolio',
+                            data: values,
+                            borderColor: '#4ECDC4',
+                            backgroundColor: 'rgba(78, 205, 196, 0.1)',
+                            borderWidth: 3,
+                            fill: true,
+                            tension: 0.3,
+                            pointBackgroundColor: '#4ECDC4',
+                            pointRadius: 4,
+                            pointHoverRadius: 6
+                        },
+                        {
+                            label: 'Starting ($100K)',
+                            data: startLine,
+                            borderColor: 'rgba(148, 163, 184, 0.4)',
+                            borderWidth: 1,
+                            borderDash: [5, 5],
+                            pointRadius: 0,
+                            fill: false
+                        },
+                        {
+                            label: 'Goal ($200K)',
+                            data: goalLine,
+                            borderColor: 'rgba(251, 191, 36, 0.4)',
+                            borderWidth: 1,
+                            borderDash: [8, 4],
+                            pointRadius: 0,
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            labels: { color: '#94A3B8', font: { family: 'Space Grotesk', size: 11 } }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.dataset.label + ': $' + context.parsed.y.toLocaleString();
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            ticks: { color: '#64748B', font: { family: 'Space Grotesk', size: 10 } },
+                            grid: { color: 'rgba(255,255,255,0.04)' }
+                        },
+                        y: {
+                            ticks: {
+                                color: '#64748B',
+                                font: { family: 'Space Grotesk', size: 10 },
+                                callback: function(value) { return '$' + (value / 1000).toFixed(0) + 'K'; }
+                            },
+                            grid: { color: 'rgba(255,255,255,0.04)' },
+                            suggestedMin: 90000,
+                            suggestedMax: 210000
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Render positions
+    const posGrid = document.getElementById('positions-grid');
+    if (posGrid && p.positions) {
+        posGrid.innerHTML = p.positions.map(pos => `
+            <div class="position-chip">
+                <span class="pos-symbol">${pos.symbol}</span>
+                <span class="pos-value">${pos.value}</span>
+                <span class="pos-pnl ${pos.side || (pos.pnl && pos.pnl.startsWith('-') ? 'negative' : 'positive')}">${pos.pnl}</span>
+            </div>
+        `).join('');
+    }
+
+    // Render trade log
+    const logList = document.getElementById('trade-log-list');
+    if (logList && p.recentTrades) {
+        logList.innerHTML = p.recentTrades.map(t => `
+            <div class="trade-log-item">
+                <span class="log-action ${t.action.toLowerCase()}">${t.action}</span>
+                <span class="log-detail">${t.detail}</span>
+                <span class="log-date">${t.date}</span>
+            </div>
+        `).join('');
     }
 }
 
