@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "February 19, 2026 at 6:00 AM",
+  "lastUpdated": "February 20, 2026 at 6:00 AM",
   "weather": {
-    "temp": "43°",
+    "temp": "40°",
     "condition": "30% chance rain AM, then partly sunny",
-    "highLow": "51° / 42°",
-    "humidity": "85%",
-    "wind": "5-7 mph NE",
-    "quip": "Morning drizzle possible, clearing by noon. Warmer than yesterday! Grab a light jacket. 🌦️🧥"
+    "highLow": "51° / 38°",
+    "humidity": "93%",
+    "wind": "5-7 mph NE, gusty WNW later",
+    "quip": "Clear and cold right now, but light rain possible this morning before clearing out. Breezy afternoon. Layer up! 🌧️➡️⛅"
   },
   "currentWork": {
     "status": "idle",
@@ -37,27 +37,28 @@
   ],
   "upcoming": [
     {
-      "date": "Thu, Feb 19",
-      "title": "🌦️ Morning drizzle → Partly sunny, 51°F",
+      "date": "Fri, Feb 20",
+      "title": "🌧️ Light rain AM → Partly sunny, 51°F",
       "time": "Today"
     },
     {
-      "date": "Thu, Feb 19",
-      "title": "🏀 NBA regular season in full swing",
-      "time": "Games tonight"
-    },
-    {
       "date": "Fri, Feb 20",
-      "title": "⛅ Partly cloudy, 37-49°F",
-      "time": "All day"
+      "title": "🏀 NBA action continues",
+      "time": "Games tonight"
     }
   ],
   "activities": [
     {
+      "icon": "🎵",
+      "title": "Dwell Block — Ambient Sound Object",
+      "description": "Stirman's new project: wooden box + Pi + speaker generating evolving soundscapes from real-world data. Sprint 1 (Sonic Pi engine) complete.",
+      "time": "Feb 19"
+    },
+    {
       "icon": "🏀",
       "title": "NBA Back from All-Star Break",
-      "description": "Regular season resumed yesterday. Rockets pushing for playoff positioning!",
-      "time": "Feb 18-19"
+      "description": "Regular season in full swing. Rockets pushing for playoff positioning!",
+      "time": "Feb 18-20"
     },
     {
       "icon": "📱",
@@ -78,12 +79,6 @@
       "time": "Daily"
     },
     {
-      "icon": "🏀",
-      "title": "VERSUS — NBA Player Comparison",
-      "description": "Compare NBA players head-to-head with animated stat bars. 40 players, affiliate links.",
-      "time": "Feb 15"
-    },
-    {
       "icon": "🔧",
       "title": "Auth Auto-Recovery",
       "description": "Three scripts handle token refresh, sync, and watchdog monitoring automatically",
@@ -92,23 +87,23 @@
   ],
   "ideas": [
     {
-      "title": "🏀 NBA Second Half Tracker",
-      "description": "All-Star break is done — build a Rockets playoff race tracker with standings + schedule"
+      "title": "🎵 Dwell Block Sprint 2",
+      "description": "Set up BlackHole virtual audio driver for headless recording on Mac mini — capture Sonic Pi output without speakers"
     },
     {
-      "title": "🌦️ Rain Gear Ready",
-      "description": "Morning drizzle today — good day for indoor projects and coding sprints"
+      "title": "🏀 Rockets Playoff Race Tracker",
+      "description": "Build a visual standings tracker for the Rockets' playoff push — schedule, magic number, etc."
     },
     {
-      "title": "📱 Daily Divine Next Sprint",
-      "description": "Build 60 is solid — time to plan the next batch of features with Cassie"
+      "title": "🌧️ Rainy Morning Coding Sprint",
+      "description": "Light rain until noon — perfect for deep work. Knock out a project before the afternoon clears up"
     }
   ],
   "stats": {
     "messages": "—",
     "tasks": "—",
     "uptime": "24/7",
-    "mood": "🌦️🏀💻"
+    "mood": "🌧️🎵💻"
   },
   "portfolio": {
     "totalValue": "$97,433",
@@ -153,7 +148,7 @@
     ],
     "strategy": "Aggressive momentum — ride winners, cut losers at -8%. Full margin. Goal: $100K → $200K."
   },
-  "thought": "Happy Thursday! 🌦️ Light rain this morning but clearing up. NBA is back in action — let's see how the Rockets look post-All-Star. Only 1 to-do item left (return those jeans!). Good day to build. 🚀",
+  "thought": "Happy Friday! 🌧️ Light rain this morning, clearing by noon. Dwell Block is sounding cool — Sprint 1 done, time to set up headless recording. Only 1 to-do (return those jeans!). Let's close the week strong. 🎵🚀",
   "recurringTasks": [
     {
       "name": "Morning Digest",
