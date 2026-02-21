@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "February 20, 2026 at 6:00 AM",
+  "lastUpdated": "February 21, 2026 at 6:00 AM",
   "weather": {
-    "temp": "40°",
-    "condition": "30% chance rain AM, then partly sunny",
-    "highLow": "51° / 38°",
-    "humidity": "93%",
-    "wind": "5-7 mph NE, gusty WNW later",
-    "quip": "Clear and cold right now, but light rain possible this morning before clearing out. Breezy afternoon. Layer up! 🌧️➡️⛅"
+    "temp": "39°",
+    "condition": "Clear skies, sunny day ahead",
+    "highLow": "56° / 41°",
+    "humidity": "100%",
+    "wind": "8 mph ENE",
+    "quip": "Crisp and clear Saturday! Cold start but warming up to a beautiful 56°F. Clouds roll in tonight. Great day to get outside. ☀️🥶"
   },
   "currentWork": {
     "status": "idle",
     "title": "Morning Patrol",
-    "description": "Dashboard refresh, health checks, ready for the day.",
+    "description": "Dashboard refresh, health checks, ready for the weekend.",
     "progress": null,
     "started": "6:00 AM"
   },
@@ -37,17 +37,23 @@
   ],
   "upcoming": [
     {
-      "date": "Fri, Feb 20",
-      "title": "🌧️ Light rain AM → Partly sunny, 51°F",
+      "date": "Sat, Feb 21",
+      "title": "☀️ Clear & sunny, high 56°F — great Saturday",
       "time": "Today"
     },
     {
-      "date": "Fri, Feb 20",
-      "title": "🏀 NBA action continues",
+      "date": "Sat, Feb 21",
+      "title": "🏀 NBA Saturday slate",
       "time": "Games tonight"
     }
   ],
   "activities": [
+    {
+      "icon": "🎙️",
+      "title": "PodDigest Skill Built",
+      "description": "New podcast digest skill: Lex Fridman, Latent Space, All-In, Acquired, My First Million, Hard Fork, NVIDIA AI. First run in progress.",
+      "time": "Feb 20"
+    },
     {
       "icon": "🎵",
       "title": "Dwell Block — Ambient Sound Object",
@@ -56,20 +62,14 @@
     },
     {
       "icon": "🏀",
-      "title": "NBA Back from All-Star Break",
-      "description": "Regular season in full swing. Rockets pushing for playoff positioning!",
-      "time": "Feb 18-20"
-    },
-    {
-      "icon": "📱",
-      "title": "Daily Divine Build 60",
-      "description": "Keyboard scroll fix, tap-to-dismiss, dark mode Location field fix",
-      "time": "Feb 12"
+      "title": "NBA Regular Season",
+      "description": "Rockets pushing for playoff positioning! Full schedule rolling.",
+      "time": "Ongoing"
     },
     {
       "icon": "✅",
       "title": "Shared To-Do List",
-      "description": "1 open item: Return jeans",
+      "description": "4 open items: Finish tax docs, Finished taxes, Inflate Tesla tires, Return jeans",
       "time": "Active"
     },
     {
@@ -79,31 +79,31 @@
       "time": "Daily"
     },
     {
-      "icon": "🔧",
-      "title": "Auth Auto-Recovery",
-      "description": "Three scripts handle token refresh, sync, and watchdog monitoring automatically",
-      "time": "Stable"
+      "icon": "🏋️",
+      "title": "FitStack — Nightly Build #10",
+      "description": "Home workout generator at stirman.net/fitstack. Revenue via Amazon affiliate links.",
+      "time": "Feb 20"
     }
   ],
   "ideas": [
     {
+      "title": "🎙️ PodDigest Cron Setup",
+      "description": "Wire up the daily 6:45am podcast digest cron — transcribe & summarize new episodes automatically"
+    },
+    {
+      "title": "☀️ Saturday Outdoor Day",
+      "description": "Beautiful clear weather, 56°F — perfect for a hike, bike ride, or just getting outside before clouds roll in tonight"
+    },
+    {
       "title": "🎵 Dwell Block Sprint 2",
       "description": "Set up BlackHole virtual audio driver for headless recording on Mac mini — capture Sonic Pi output without speakers"
-    },
-    {
-      "title": "🏀 Rockets Playoff Race Tracker",
-      "description": "Build a visual standings tracker for the Rockets' playoff push — schedule, magic number, etc."
-    },
-    {
-      "title": "🌧️ Rainy Morning Coding Sprint",
-      "description": "Light rain until noon — perfect for deep work. Knock out a project before the afternoon clears up"
     }
   ],
   "stats": {
     "messages": "—",
     "tasks": "—",
     "uptime": "24/7",
-    "mood": "🌧️🎵💻"
+    "mood": "☀️🎙️🏀"
   },
   "portfolio": {
     "totalValue": "$97,433",
@@ -148,7 +148,7 @@
     ],
     "strategy": "Aggressive momentum — ride winners, cut losers at -8%. Full margin. Goal: $100K → $200K."
   },
-  "thought": "Happy Friday! 🌧️ Light rain this morning, clearing by noon. Dwell Block is sounding cool — Sprint 1 done, time to set up headless recording. Only 1 to-do (return those jeans!). Let's close the week strong. 🎵🚀",
+  "thought": "Happy Saturday! ☀️ Clear skies and 56°F — beautiful day to get outside. PodDigest skill is built and ready for daily digests. 4 to-do items hanging out (those tax docs and jeans aren't going anywhere 😄). Enjoy the weekend! 🚀",
   "recurringTasks": [
     {
       "name": "Morning Digest",
