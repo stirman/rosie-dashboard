@@ -106,9 +106,9 @@
     "mood": "☀️🎙️🏀"
   },
   "portfolio": {
-    "totalValue": "$97,433",
-    "pnl": "-$2,567",
-    "pnlPct": "-2.6%",
+    "totalValue": "$101,513",
+    "pnl": "+$1,513",
+    "pnlPct": "+1.5%",
     "cash": "-$42,149",
     "goal": "$200K",
     "startingBalance": 100000,
@@ -119,21 +119,22 @@
       {"date": "Feb 17 PM", "value": 99506},
       {"date": "Feb 18", "value": 98619},
       {"date": "Feb 18 PM", "value": 97734},
-      {"date": "Feb 19", "value": 97433}
+      {"date": "Feb 19", "value": 97433},
+      {"date": "Feb 21", "value": 101513}
     ],
     "positions": [
-      {"symbol": "GLBE", "value": "$24,530", "pnl": "+2.9%", "side": "positive"},
-      {"symbol": "SOL", "value": "$17,501", "pnl": "-4.3%", "side": "negative"},
-      {"symbol": "ETH", "value": "$15,354", "pnl": "-2.5%", "side": "negative"},
-      {"symbol": "ZIM", "value": "$10,089", "pnl": "+3.0%", "side": "positive"},
-      {"symbol": "ALB", "value": "$9,953", "pnl": "-0.5%", "side": "negative"},
-      {"symbol": "BABA", "value": "$9,905", "pnl": "+0.04%", "side": "positive"},
-      {"symbol": "NVDA", "value": "$9,720", "pnl": "-1.2%", "side": "negative"},
-      {"symbol": "DOGE", "value": "$9,640", "pnl": "-3.8%", "side": "negative"},
-      {"symbol": "TOST", "value": "$9,562", "pnl": "-3.3%", "side": "negative"},
-      {"symbol": "MU", "value": "$9,580", "pnl": "-1.9%", "side": "negative"},
-      {"symbol": "COIN", "value": "$9,017", "pnl": "-2.9%", "side": "negative"},
-      {"symbol": "AVAX", "value": "$8,821", "pnl": "-3.7%", "side": "negative"}
+      {"symbol": "GLBE", "value": "$25,248", "pnl": "+5.2%", "side": "positive"},
+      {"symbol": "SOL", "value": "$18,496", "pnl": "+2.7%", "side": "positive"},
+      {"symbol": "ETH", "value": "$15,599", "pnl": "+0.6%", "side": "positive"},
+      {"symbol": "ZIM", "value": "$10,448", "pnl": "+4.6%", "side": "positive"},
+      {"symbol": "ALB", "value": "$9,930", "pnl": "-0.7%", "side": "negative"},
+      {"symbol": "BABA", "value": "$9,883", "pnl": "-0.2%", "side": "negative"},
+      {"symbol": "NVDA", "value": "$9,735", "pnl": "+0.4%", "side": "positive"},
+      {"symbol": "DOGE", "value": "$9,573", "pnl": "-0.3%", "side": "negative"},
+      {"symbol": "TOST", "value": "$9,581", "pnl": "-4.2%", "side": "negative"},
+      {"symbol": "MU", "value": "$9,578", "pnl": "+0.8%", "side": "positive"},
+      {"symbol": "COIN", "value": "$9,635", "pnl": "+1.4%", "side": "positive"},
+      {"symbol": "AVAX", "value": "$9,197", "pnl": "+2.2%", "side": "positive"}
     ],
     "recentTrades": [
       {"action": "BUY", "detail": "115 GLBE @ $35.59 — adding to winner", "date": "Feb 19"},
@@ -148,7 +149,7 @@
     ],
     "strategy": "Aggressive momentum — ride winners, cut losers at -8%. Full margin. Goal: $100K → $200K."
   },
-  "thought": "Happy Saturday! ☀️ Clear skies and 56°F — beautiful day to get outside. PodDigest skill is built and ready for daily digests. 4 to-do items hanging out (those tax docs and jeans aren't going anywhere 😄). Enjoy the weekend! 🚀",
+  "thought": "Happy Saturday! ☀️ Portfolio flipped green — up $1,513 (+1.5%)! GLBE leading the charge at +5.2%. Beautiful clear day ahead, 56°F. Enjoy the weekend! 🚀📈",
   "recurringTasks": [
     {
       "name": "Morning Digest",
